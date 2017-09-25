@@ -1,0 +1,16 @@
+name: poker
+version: '0.1.0.0'
+category: Web
+author: Anup Kishore
+maintainer: example@example.com
+copyright: UNLICENSED
+license: BSD3
+github: anup-2s/poker
+extra-source-files:
+- README.md
+dependencies:
+- base >=4.7 && <5
+library:
+  source-dirs: src
+  exposed-modules:
+  - Lib

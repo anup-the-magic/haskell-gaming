@@ -29,6 +29,7 @@ library
   other-modules:
       Deck
       Poker
+      Poker.Types
       Paths_poker
   build-depends:
       base >=4.7 && <5

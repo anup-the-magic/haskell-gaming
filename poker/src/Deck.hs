@@ -40,4 +40,4 @@ instance Enum Card where
 type Deck = [Card]
 
 empty :: Deck
-empty= [Card {suit = s, rank = r} | s <- [Club ..  Diamond], r <- [Two .. Ace]]
+empty = [Card {suit = s, rank = r} | s <- [Club .. Diamond], r <- [Two .. Ace]]

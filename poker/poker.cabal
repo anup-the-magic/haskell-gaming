@@ -29,6 +29,7 @@ library
   other-modules:
       Deck
       Poker
+      Poker.Hands
       Poker.Types
       Paths_poker
   build-depends:

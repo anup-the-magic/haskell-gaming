@@ -7,6 +7,7 @@ import qualified Deck
 import Deck (Card, Deck)
 import Poker.Types
 
+-- TODO
 getId :: Int
 getId = 1
 
@@ -20,8 +21,21 @@ initialize n buyIn =
   }
 
 -- TODO
+bestHand :: [Card] -> Player -> Ordering -- Should be Hand
+bestHand cards player = LT
+
+sortPlayers :: [Card] -> [Player] -> [Player]
+sortPlayers cards = sortBy (bestHand cards)
+
 decideWinner :: Game -> Game
-decideWinner = id
+decideWinner game =
+  let cards = getCards game
+      players' = sortPlayers cards . players $ game
+      players'' =
+        case players' of
+          [] -> []
+          x:xs -> (x {stack = stack x + getPot game}) : xs
+  in game {players = players'', board = Nothing}
 
 advanceState' :: Game -> (Pot, [Player]) -> Game
 advanceState' game@Game {board = Nothing} (pot, players) =

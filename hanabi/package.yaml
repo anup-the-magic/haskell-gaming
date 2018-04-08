@@ -1,0 +1,57 @@
+name: hanabi
+version: '0.1.0.0'
+synopsis: Hanabi server and client
+description: Please see the README on GitHub <github.com/anup-2s/haskell-gaming/blob/master/hanabi/README.md>
+category: Web
+author: Anup Kishore
+maintainer: anup.kishore@gmail.com
+copyright: 2017 Anup Kishore
+# license: unlicensed
+homepage: n/a
+git: https://github.com/anup-2s/haskell-gaming
+
+extra-source-files:
+- README.md
+
+dependencies:
+- base >=4.7 && <5
+- text >=1.2.2.0
+- snap-core
+- snap-server
+- aeson
+
+ghc-options:
+  - -Wall
+  - -Wwarn
+  - -Wcompat
+  - -Wincomplete-record-updates
+  - -Wincomplete-uni-patterns
+  - -Wredundant-constraints
+
+default-extensions:
+  - OverloadedStrings
+  - NamedFieldPuns
+  - MultiWayIf
+  - TupleSections
+
+library:
+  source-dirs: lib
+  other-modules:
+  - Paths_aoc2017
+
+# data-files:
+#   - data/*
+
+executables:
+  hanabi-server:
+    main: Main
+    source-dirs: src
+    ghc-options: [ -threaded, -rtsopts, -with-rtsopts=-N]
+    other-modules:
+    - Paths_aoc2017
+    dependencies:
+    - hanabi
+
+tests:
+  hanabi-test:
+    main: Spec.hs

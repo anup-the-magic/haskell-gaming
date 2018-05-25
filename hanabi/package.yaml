@@ -20,6 +20,8 @@ dependencies:
 - snap-server
 - aeson
 - text
+- random
+- random-shuffle
 
 ghc-options:
   - -Wall

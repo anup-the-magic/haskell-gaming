@@ -21,7 +21,7 @@ performMove :: Move -> GameState -> Either Err GameState
 performMove (Play cardId) state = playCard cardId state
 performMove (Clue clue target cards) state =
   validate clue target cards (Types.players state) >>= performClue state
-performMove _ _ = undefined
+performMove (Discard cardId) state = discardCard cardId state
 
 tick :: GameState -> MoveOutcome
 tick state@Types.GameState {Types.players} =
@@ -72,6 +72,10 @@ performClue state clueState = do
       player {Types.hand = map (Types.clueCard clue) . Types.hand $ player}
     players = curr :| (playersBefore ++ (player' : playersAfter))
 
+discardCard :: CardId -> GameState -> Either Err GameState
+discardCard cardId state =
+  discardCard' state =<< getCardFromCurrentPlayer cardId (Types.players state)
+
 playCard :: CardId -> GameState -> Either Err GameState
 playCard cardId state =
   playCard' state =<< getCardFromCurrentPlayer cardId (Types.players state)
@@ -106,6 +110,23 @@ playCard' gameState cardState = do
   where
     Types.GameState {Types.deck, Types.playables, Types.lives} = gameState
     CardState {currentCard} = cardState
+
+discardCard' :: GameState -> CardState -> Either Err GameState
+discardCard' gameState cardState = do
+  (players', deck') <- drawCard deck cardState
+  return
+    gameState
+    { Types.discards = currentCard : discards
+    , Types.deck = deck'
+    , Types.players = players'
+    , Types.clueTokens = increment clueTokens
+    }
+  where
+    Types.GameState {Types.deck, Types.discards, Types.clueTokens} = gameState
+    CardState {currentCard} = cardState
+    increment Nothing      = Just Clue1
+    increment (Just Clue8) = Just Clue8
+    increment xs           = succ <$> xs
 
 -- possible rewrite using Map.alterF :: State Lives?
 tryPlayCard ::

@@ -21,7 +21,7 @@ data Move
   = Clue ClueType
          PlayerId
          (Set CardId)
-  | Discard Card
+  | Discard CardId
   | Play CardId
   deriving (Eq, Show)
 
@@ -122,4 +122,5 @@ data GameState = GameState
   , playables  :: Map Color [Rank]
   , lives      :: Lives
   , clueTokens :: Maybe ClueTokens
+  , discards   :: [Card]
   } deriving (Eq, Show)

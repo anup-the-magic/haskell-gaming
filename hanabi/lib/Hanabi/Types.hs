@@ -2,6 +2,7 @@ module Hanabi.Types where
 
 import           Data.List.NonEmpty (NonEmpty)
 import           Data.Map           (Map)
+import           Data.Set           (Set)
 
 newtype PlayerId =
   PlayerId String
@@ -11,13 +12,15 @@ newtype CardId =
   CardId String
   deriving (Eq, Show, Ord)
 
+data ClueType
+  = RankClue Rank
+  | ColorClue Color
+  deriving (Eq, Show)
+
 data Move
-  = ColorClue PlayerId
-              Color
-              [Card]
-  | RankClue PlayerId
-             Rank
-             [Card]
+  = Clue ClueType
+         PlayerId
+         (Set CardId)
   | Discard Card
   | Play CardId
   deriving (Eq, Show)
@@ -32,6 +35,11 @@ data Err
   = OutOfTurn
   | InvalidMove
   | CardNotOwned
+  | PlayerNotFound PlayerId
+  | ClueNotComplete ClueType
+                    PlayerId
+                    (Set CardId)
+  | NoCluesLeft
   | BrokenState
   deriving (Eq, Show)
 
@@ -41,7 +49,7 @@ data Color
   | Yellow
   | Green
   | White
-  deriving (Ord, Enum, Eq, Show)
+  deriving (Eq, Show, Ord, Enum)
 
 data Rank
   = One
@@ -49,13 +57,35 @@ data Rank
   | Three
   | Four
   | Five
-  deriving (Ord, Enum, Eq, Show)
+  deriving (Eq, Show, Ord, Enum)
+
+data Clue
+  = Rank
+  | Color
+  | Both
+  deriving (Eq, Show)
 
 data Card = Card
   { cardId :: CardId
   , rank   :: Rank
   , color  :: Color
+  , clues  :: Maybe Clue
   } deriving (Eq, Show)
+
+clueCard :: ClueType -> Card -> Card
+clueCard clue card@Card {color = color, rank = rank, clues = clues} =
+  if matches clue
+    then card {clues = increment clue clues}
+    else card
+  where
+    increment (RankClue _) Nothing      = Just Rank
+    increment (RankClue _) (Just Color) = Just Both
+    increment (RankClue _) x            = x
+    increment (ColorClue _) Nothing     = Just Color
+    increment (ColorClue _) (Just Rank) = Just Both
+    increment (ColorClue _) x           = x
+    matches (RankClue rank')   = rank' == rank
+    matches (ColorClue color') = color' == color
 
 data Player = Player
   { playerId :: PlayerId
@@ -75,9 +105,21 @@ data DeckState
   | NoCardsLeft
   deriving (Eq, Show)
 
+data ClueTokens
+  = Clue1
+  | Clue2
+  | Clue3
+  | Clue4
+  | Clue5
+  | Clue6
+  | Clue7
+  | Clue8
+  deriving (Eq, Show, Ord, Enum)
+
 data GameState = GameState
-  { players   :: NonEmpty Player
-  , deck      :: DeckState
-  , playables :: Map Color [Rank]
-  , lives     :: Lives
+  { players    :: NonEmpty Player
+  , deck       :: DeckState
+  , playables  :: Map Color [Rank]
+  , lives      :: Lives
+  , clueTokens :: Maybe ClueTokens
   } deriving (Eq, Show)

@@ -2,8 +2,6 @@ module Hanabi.Types where
 
 import           Data.List.NonEmpty (NonEmpty)
 import           Data.Map           (Map)
-import           Hanabi.Deck        (Color (..), Rank (..))
-import qualified Hanabi.Deck        as Deck
 
 newtype PlayerId =
   PlayerId String
@@ -37,9 +35,26 @@ data Err
   | BrokenState
   deriving (Eq, Show)
 
+data Color
+  = Red
+  | Blue
+  | Yellow
+  | Green
+  | White
+  deriving (Ord, Enum, Eq, Show)
+
+data Rank
+  = One
+  | Two
+  | Three
+  | Four
+  | Five
+  deriving (Ord, Enum, Eq, Show)
+
 data Card = Card
   { cardId :: CardId
-  , card   :: Deck.Card
+  , rank   :: Rank
+  , color  :: Color
   } deriving (Eq, Show)
 
 data Player = Player
@@ -63,6 +78,6 @@ data DeckState
 data GameState = GameState
   { players   :: NonEmpty Player
   , deck      :: DeckState
-  , playables :: Map Deck.Color [Deck.Rank]
+  , playables :: Map Color [Rank]
   , lives     :: Lives
   } deriving (Eq, Show)

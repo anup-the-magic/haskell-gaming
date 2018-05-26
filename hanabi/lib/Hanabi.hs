@@ -8,10 +8,9 @@ import           Data.List.NonEmpty (NonEmpty ((:|)))
 import qualified Data.List.NonEmpty as NonEmpty
 import           Data.Map           (Map)
 import qualified Data.Map           as Map
-import qualified Hanabi.Deck        as Deck
-import           Hanabi.Types       (Card, CardId (..), DeckState (..),
+import           Hanabi.Types       (Card, CardId (..), Color, DeckState (..),
                                      Err (..), GameState, Lives (..), Move (..),
-                                     MoveOutcome (..), Player)
+                                     MoveOutcome (..), Player, Rank)
 import qualified Hanabi.Types       as Types
 
 performMove :: Move -> GameState -> Either Err MoveOutcome
@@ -42,7 +41,7 @@ data CardState = CardState
 playCard' :: GameState -> CardState -> Either Err GameState
 playCard' gameState cardState = do
   (players', deck') <- drawCardAndRotate deck cardState
-  (playables', lives') <- tryPlayCard playables lives (Types.card currentCard)
+  (playables', lives') <- tryPlayCard playables lives currentCard
   return $ Types.GameState players' deck' playables' lives'
   where
     Types.GameState {Types.deck, Types.playables, Types.lives} = gameState
@@ -50,17 +49,14 @@ playCard' gameState cardState = do
 
 -- possible rewrite using Map.alterF :: State Lives?
 tryPlayCard ::
-     Map Deck.Color [Deck.Rank]
-  -> Lives
-  -> Deck.Card
-  -> Either Err (Map Deck.Color [Deck.Rank], Lives)
-tryPlayCard playables lives Deck.Card {Deck.rank = Deck.One, Deck.color} =
+     Map Color [Rank] -> Lives -> Card -> Either Err (Map Color [Rank], Lives)
+tryPlayCard playables lives Types.Card {Types.rank = Types.One, Types.color} =
   case played of
-    Nothing -> Right (Map.insert color [Deck.One] playables, lives)
+    Nothing -> Right (Map.insert color [Types.One] playables, lives)
     Just _  -> (,) <$> Right playables <*> decrementLives lives
   where
     played = Map.lookup color playables
-tryPlayCard playables lives Deck.Card {Deck.rank, Deck.color} =
+tryPlayCard playables lives Types.Card {Types.rank, Types.color} =
   case played of
     Just xs -> Right (Map.insert color (rank : xs) playables, lives)
     Nothing -> (,) <$> Right playables <*> decrementLives lives

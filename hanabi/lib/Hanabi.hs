@@ -2,24 +2,63 @@
 
 module Hanabi where
 
-import           Control.Monad      (mfilter)
-import qualified Data.List          as List
-import           Data.List.NonEmpty (NonEmpty ((:|)))
-import qualified Data.List.NonEmpty as NonEmpty
-import           Data.Map           (Map)
-import qualified Data.Map           as Map
-import           Data.Set           (Set)
-import qualified Data.Set           as Set
-import           Hanabi.Types       (Card, CardId (..), ClueTokens (..),
-                                     ClueType (..), Color, DeckState (..),
-                                     Err (..), GameState, Lives (..), Move (..),
-                                     MoveOutcome (..), Player, PlayerId (..),
-                                     Rank)
-import qualified Hanabi.Types       as Types
+import           Control.Monad         (mfilter)
+import qualified Data.List             as List
+import           Data.List.NonEmpty    (NonEmpty ((:|)))
+import qualified Data.List.NonEmpty    as NonEmpty
+import qualified Data.List.Split       as Split
+import           Data.Map              (Map)
+import qualified Data.Map              as Map
+import           Data.Set              (Set)
+import qualified Data.Set              as Set
+import           Hanabi.Types          (Card, CardId (..), ClueTokens (..),
+                                        ClueType (..), Color, DeckState (..),
+                                        Err (..), GameState, Lives (..),
+                                        Move (..), MoveOutcome (..), Player,
+                                        PlayerId (..), Rank)
+import qualified Hanabi.Types          as Types
+import           System.Random         (RandomGen)
+import qualified System.Random.Shuffle as Shuffle
 
-performMove :: Move -> GameState -> Either Err GameState
-performMove (Play cardId) state = playCard cardId state
-performMove (Clue clue target cards) state =
+init :: (RandomGen gen) => Int -> gen -> Either Err GameState
+init nPlayers gen = do
+  (players, deck') <- startingHands
+  return
+    Types.GameState
+    { Types.players = players
+    , Types.deck = Types.Drawing deck'
+    , Types.playables = Map.empty
+    , Types.lives = Hissss
+    , Types.clueTokens = Just Clue8
+    , Types.discards = []
+    }
+  where
+    cards =
+      [(r, c) | r <- [Types.One .. Types.Five], c <- [Types.Red .. Types.White]]
+    deck =
+      zipWith createCard [1 ..] . Shuffle.shuffle' cards (length cards) $ gen
+    createCard :: Int -> (Rank, Color) -> Card
+    createCard i (r, c) =
+      Types.Card
+      { Types.rank = r
+      , Types.color = c
+      , Types.cardId =
+          Types.CardId (show i ++ " - " ++ Types.colorStr c ++ Types.rankStr r)
+      , Types.clues = Nothing
+      }
+    handSize 2 = Right 5
+    handSize 3 = Right 5
+    handSize 4 = Right 4
+    handSize 5 = Right 4
+    handSize x = Left (InvalidPlayerCount x)
+    toPlayer :: Char -> [Card] -> Player
+    toPlayer char hand =
+      Types.Player {Types.playerId = Types.PlayerId [char], Types.hand = hand}
+    startingHands = do
+      hand <- handSize nPlayers
+      let (hands, deck') = List.splitAt (hand * nPlayers) deck
+      let players = zipWith toPlayer ['A' ..] . Split.chunksOf hand $ hands
+      return (NonEmpty.fromList players, NonEmpty.fromList deck')
 
 performMove :: Move -> GameState -> Either Err MoveOutcome
 performMove move state = tick <$> performMove' move state

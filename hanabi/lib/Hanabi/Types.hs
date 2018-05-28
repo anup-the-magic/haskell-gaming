@@ -41,6 +41,7 @@ data Err
                     (Set CardId)
   | NoCluesLeft
   | BrokenState
+  | InvalidPlayerCount Int
   deriving (Eq, Show)
 
 data Color
@@ -58,6 +59,20 @@ data Rank
   | Four
   | Five
   deriving (Eq, Show, Ord, Enum)
+
+colorStr :: Color -> String
+colorStr Red    = "R"
+colorStr Green  = "G"
+colorStr Blue   = "B"
+colorStr White  = "W"
+colorStr Yellow = "Y"
+
+rankStr :: Rank -> String
+rankStr One   = "1"
+rankStr Two   = "2"
+rankStr Three = "3"
+rankStr Four  = "4"
+rankStr Five  = "5"
 
 data Clue
   = Rank

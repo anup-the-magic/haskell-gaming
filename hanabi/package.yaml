@@ -23,6 +23,7 @@ dependencies:
 - random
 - random-shuffle
 - containers
+- split
 
 ghc-options:
   - -Wall

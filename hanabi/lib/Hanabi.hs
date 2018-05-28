@@ -20,8 +20,15 @@ import qualified Hanabi.Types       as Types
 performMove :: Move -> GameState -> Either Err GameState
 performMove (Play cardId) state = playCard cardId state
 performMove (Clue clue target cards) state =
+
+performMove :: Move -> GameState -> Either Err MoveOutcome
+performMove move state = tick <$> performMove' move state
+
+performMove' :: Move -> GameState -> Either Err GameState
+performMove' (Play cardId) state = playCard cardId state
+performMove' (Clue clue target cards) state =
   validate clue target cards (Types.players state) >>= performClue state
-performMove (Discard cardId) state = discardCard cardId state
+performMove' (Discard cardId) state = discardCard cardId state
 
 tick :: GameState -> MoveOutcome
 tick state@Types.GameState {Types.players} =

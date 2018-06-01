@@ -189,7 +189,7 @@ tryPlayCard playables lives Types.Card {Types.rank, Types.color} =
         then Right (Map.insert color (rank :| []) playables, lives)
         else decrement
     Just (x :| xs) ->
-      if rank == pred x
+      if rank /= Types.One && pred rank == x
         then Right (Map.insert color (rank :| (x : xs)) playables, lives)
         else decrement
   where

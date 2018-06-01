@@ -2,7 +2,6 @@
 
 module Hanabi where
 
-import           Control.Monad         (mfilter)
 import qualified Data.List             as List
 import           Data.List.NonEmpty    (NonEmpty ((:|)))
 import qualified Data.List.NonEmpty    as NonEmpty
@@ -179,21 +178,23 @@ discardCard' gameState cardState = do
 
 -- possible rewrite using Map.alterF :: State Lives?
 tryPlayCard ::
-     Map Color [Rank] -> Lives -> Card -> Either Err (Map Color [Rank], Lives)
-tryPlayCard playables lives Types.Card {Types.rank = Types.One, Types.color} =
-  case played of
-    Nothing -> Right (Map.insert color [Types.One] playables, lives)
-    Just _  -> (,) <$> Right playables <*> decrementLives lives
-  where
-    played = Map.lookup color playables
+     Map Color (NonEmpty Rank)
+  -> Lives
+  -> Card
+  -> Either Err (Map Color (NonEmpty Rank), Lives)
 tryPlayCard playables lives Types.Card {Types.rank, Types.color} =
   case played of
-    Just xs -> Right (Map.insert color (rank : xs) playables, lives)
-    Nothing -> (,) <$> Right playables <*> decrementLives lives
+    Nothing ->
+      if rank == Types.One
+        then Right (Map.insert color (rank :| []) playables, lives)
+        else decrement
+    Just (x :| xs) ->
+      if rank == pred x
+        then Right (Map.insert color (rank :| (x : xs)) playables, lives)
+        else decrement
   where
-    played = mfilter (rankOneLess rank) . Map.lookup color $ playables
-    rankOneLess rankA (rankB:_) = rankB == pred rankA
-    rankOneLess _ _             = False -- TODO collapse cases
+    played = Map.lookup color playables
+    decrement = (,) <$> Right playables <*> decrementLives lives
 
 decrementLives :: Lives -> Either Err Lives
 decrementLives Hissss = Right Hisss

@@ -134,7 +134,7 @@ data ClueTokens
 data GameState = GameState
   { players    :: NonEmpty Player
   , deck       :: DeckState
-  , playables  :: Map Color [Rank]
+  , playables  :: Map Color (NonEmpty Rank)
   , lives      :: Lives
   , clueTokens :: Maybe ClueTokens
   , discards   :: [Card]

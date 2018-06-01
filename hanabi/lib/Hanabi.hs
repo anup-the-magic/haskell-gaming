@@ -78,6 +78,13 @@ data ClueState = ClueState
   , clue    :: ClueType
   }
 
+clueCards :: ClueType -> Player -> Set CardId
+clueCards clue =
+  Set.fromList . map Types.cardId . filter (clueCards' clue) . Types.hand
+  where
+    clueCards' (RankClue rank)   = (rank ==) . Types.rank
+    clueCards' (ColorClue color) = (color ==) . Types.color
+
 validate ::
      ClueType
   -> PlayerId
@@ -87,14 +94,10 @@ validate ::
 validate clue playerId targetCards players = do
   (before, player, after) <-
     maybe (Left (PlayerNotFound playerId)) Right (getPlayer players)
-  if Set.null . Set.difference targetCards . clueCards $ player
+  if Set.null . Set.difference targetCards . clueCards clue $ player
     then return ClueState {players = (before, player, after), clue}
     else Left (ClueNotComplete clue playerId targetCards)
   where
-    clueCards =
-      Set.fromList . map Types.cardId . filter (clueCards' clue) . Types.hand
-    clueCards' (RankClue rank)   = (rank ==) . Types.rank
-    clueCards' (ColorClue color) = (color ==) . Types.color
     zippers :: [a] -> [([a], a, [a])]
     zippers xs = zip3 (List.inits xs) xs (drop 1 . List.tails $ xs)
     getPlayer (curr :| xs) =

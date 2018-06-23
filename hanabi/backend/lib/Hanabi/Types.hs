@@ -85,7 +85,7 @@ data Card = Card
   , rank   :: Rank
   , color  :: Color
   , clues  :: Maybe Clue
-  } deriving (Eq, Show)
+  } deriving (Eq, Show, ToJSON)
 
 clueCard :: ClueType -> Card -> Card
 clueCard clue card@Card {color = color, rank = rank, clues = clues} =

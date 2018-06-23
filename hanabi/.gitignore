@@ -2,6 +2,7 @@ hanabi.cabal
 
 # [github.com/github/gitignore/blob/master/Haskell.gitignore]
 
+frontend/elm
 dist
 dist-*
 cabal-dev

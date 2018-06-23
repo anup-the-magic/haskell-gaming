@@ -1,16 +1,14 @@
 module Utils where
 
-import           Data.Aeson       ((.=))
-import qualified Data.Aeson       as Json
-import qualified Data.Aeson.Types as Json.Types
+import           Data.Aeson ((.=))
+import qualified Data.Aeson as Json
 import           Data.Text
-import           Snap.Core        (Snap, modifyResponse, setResponseCode,
-                                   writeLBS)
+import           Snap.Core  (Snap, modifyResponse, setResponseCode, writeLBS)
 
-json :: [Json.Types.Pair] -> Snap ()
-json = writeLBS . Json.encode . Json.object
+json :: Json.Value -> Snap ()
+json = writeLBS . Json.encode
 
 errorWith :: Int -> Text -> Snap ()
 errorWith code msg = do
   modifyResponse (setResponseCode code)
-  json ["code" .= code, "msg" .= msg]
+  json (Json.object ["code" .= code, "msg" .= msg])

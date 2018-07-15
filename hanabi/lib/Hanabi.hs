@@ -24,13 +24,13 @@ init nPlayers gen = do
   (players, deck') <- startingHands
   return
     Types.GameState
-    { Types.players = players
-    , Types.deck = Types.Drawing deck'
-    , Types.playables = Map.empty
-    , Types.lives = Hissss
-    , Types.clueTokens = Just Clue8
-    , Types.discards = []
-    }
+      { Types.players = players
+      , Types.deck = Types.Drawing deck'
+      , Types.playables = Map.empty
+      , Types.lives = Hissss
+      , Types.clueTokens = Just Clue8
+      , Types.discards = []
+      }
   where
     cards =
       [(r, c) | r <- [Types.One .. Types.Five], c <- [Types.Red .. Types.White]]
@@ -39,12 +39,13 @@ init nPlayers gen = do
     createCard :: Int -> (Rank, Color) -> Card
     createCard i (r, c) =
       Types.Card
-      { Types.rank = r
-      , Types.color = c
-      , Types.cardId =
-          Types.CardId (show i ++ " - " ++ Types.colorStr c ++ Types.rankStr r)
-      , Types.clues = Nothing
-      }
+        { Types.rank = r
+        , Types.color = c
+        , Types.cardId =
+            Types.CardId
+              (show i ++ " - " ++ Types.colorStr c ++ Types.rankStr r)
+        , Types.clues = Nothing
+        }
     handSize 2 = Right 5
     handSize 3 = Right 5
     handSize 4 = Right 4
@@ -150,11 +151,11 @@ playCard' gameState cardState = do
   (playables', lives') <- tryPlayCard playables lives currentCard
   return $
     gameState
-    { Types.players = players'
-    , Types.deck = deck'
-    , Types.playables = playables'
-    , Types.lives = lives'
-    }
+      { Types.players = players'
+      , Types.deck = deck'
+      , Types.playables = playables'
+      , Types.lives = lives'
+      }
   where
     Types.GameState {Types.deck, Types.playables, Types.lives} = gameState
     CardState {currentCard} = cardState
@@ -164,11 +165,11 @@ discardCard' gameState cardState = do
   (players', deck') <- drawCard deck cardState
   return
     gameState
-    { Types.discards = currentCard : discards
-    , Types.deck = deck'
-    , Types.players = players'
-    , Types.clueTokens = increment clueTokens
-    }
+      { Types.discards = currentCard : discards
+      , Types.deck = deck'
+      , Types.players = players'
+      , Types.clueTokens = increment clueTokens
+      }
   where
     Types.GameState {Types.deck, Types.discards, Types.clueTokens} = gameState
     CardState {currentCard} = cardState

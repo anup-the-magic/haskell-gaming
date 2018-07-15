@@ -2,7 +2,7 @@ module Router where
 
 import           Control.Applicative ((<|>))
 import           Snap.Core           (Snap, route, writeBS)
-import           Utils               (errorWith)
+import           Snap.Utils          (errorWith)
 
 routes :: Snap ()
 routes = route handlers <|> errorWith 404 "Route not found"

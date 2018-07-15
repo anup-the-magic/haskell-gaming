@@ -1,6 +1,6 @@
-module Utils where
+module Snap.Utils where
 
-import           Data.Aeson ((.=))
+import           Data.Aeson (ToJSON, (.=))
 import qualified Data.Aeson as Json
 import           Data.Text
 import           Snap.Core  (Snap, modifyResponse, setResponseCode, writeLBS)

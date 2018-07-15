@@ -1,16 +1,30 @@
+{-# LANGUAGE DeriveGeneric #-}
+
 module Hanabi.Types where
 
+import           Data.Aeson         (FromJSON, ToJSON)
+import           Data.Aeson.Types   (ToJSONKey (..), toJSONKeyText)
 import           Data.List.NonEmpty (NonEmpty)
 import           Data.Map           (Map)
 import           Data.Set           (Set)
+import qualified Data.Text          as Text
+import           GHC.Generics       (Generic)
 
 newtype PlayerId =
   PlayerId String
-  deriving (Eq, Show, Ord)
+  deriving (Eq, Show, Ord, Generic)
 
 newtype CardId =
   CardId String
-  deriving (Eq, Show, Ord)
+  deriving (Eq, Show, Ord, Generic)
+
+instance ToJSON PlayerId
+
+instance ToJSON CardId
+
+instance FromJSON PlayerId
+
+instance FromJSON CardId
 
 data ClueType
   = RankClue Rank
@@ -50,7 +64,14 @@ data Color
   | Yellow
   | Green
   | White
-  deriving (Eq, Show, Ord, Enum)
+  deriving (Eq, Show, Ord, Enum, Generic)
+
+instance ToJSON Color
+
+instance ToJSONKey Color where
+  toJSONKey = toJSONKeyText (Text.pack . show)
+
+instance FromJSON Color
 
 data Rank
   = One
@@ -58,20 +79,28 @@ data Rank
   | Three
   | Four
   | Five
-  deriving (Eq, Show, Ord, Enum)
+  deriving (Eq, Show, Ord, Enum, Generic)
+
+instance ToJSON Rank
+
+instance FromJSON Rank
 
 data Clue
   = Rank
   | Color
   | Both
-  deriving (Eq, Show)
+  deriving (Eq, Show, Generic)
+
+instance ToJSON Clue
 
 data Card = Card
   { cardId :: CardId
   , rank   :: Rank
   , color  :: Color
   , clues  :: Maybe Clue
-  } deriving (Eq, Show)
+  } deriving (Eq, Show, Generic)
+
+instance ToJSON Card
 
 data Player = Player
   { playerId :: PlayerId
@@ -83,7 +112,9 @@ data Lives
   | Hisss
   | Hiss
   | Boom
-  deriving (Eq, Show)
+  deriving (Eq, Show, Generic)
+
+instance ToJSON Lives
 
 data DeckState
   = Drawing (NonEmpty Card)
@@ -100,7 +131,9 @@ data ClueTokens
   | Clue6
   | Clue7
   | Clue8
-  deriving (Eq, Show, Ord, Enum)
+  deriving (Eq, Show, Ord, Enum, Generic)
+
+instance ToJSON ClueTokens
 
 data GameState = GameState
   { players    :: NonEmpty Player

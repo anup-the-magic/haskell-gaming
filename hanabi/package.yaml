@@ -38,6 +38,8 @@ default-extensions:
   - NamedFieldPuns
   - MultiWayIf
   - TupleSections
+  - DeriveGeneric
+  - DeriveAnyType
 
 library:
   source-dirs: lib

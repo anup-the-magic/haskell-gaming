@@ -16,6 +16,8 @@ import           Hanabi.Types          (Card, CardId (..), ClueTokens (..),
                                         Move (..), MoveOutcome (..), Player,
                                         PlayerId (..), Rank)
 import qualified Hanabi.Types          as Types
+import           Hanabi.Types.Utils    (clueCard)
+import qualified Hanabi.Types.Utils    as TypeUtils
 import           System.Random         (RandomGen)
 import qualified System.Random.Shuffle as Shuffle
 
@@ -43,7 +45,7 @@ init nPlayers gen = do
         , Types.color = c
         , Types.cardId =
             Types.CardId
-              (show i ++ " - " ++ Types.colorStr c ++ Types.rankStr r)
+              (show i ++ " - " ++ TypeUtils.colorStr c ++ TypeUtils.rankStr r)
         , Types.clues = Nothing
         }
     handSize 2 = Right 5
@@ -117,8 +119,7 @@ performClue state clueState = do
     decrementToken x     = Just . pred $ x
     ClueState {players = (curr :| playersBefore, player, playersAfter), clue} =
       clueState
-    player' =
-      player {Types.hand = map (Types.clueCard clue) . Types.hand $ player}
+    player' = player {Types.hand = map (clueCard clue) . Types.hand $ player}
     players = curr :| (playersBefore ++ (player' : playersAfter))
 
 discardCard :: CardId -> GameState -> Either Err GameState

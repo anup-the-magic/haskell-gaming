@@ -1,5 +1,3 @@
-{-# LANGUAGE DeriveGeneric #-}
-
 module Hanabi.Types where
 
 import           Data.Aeson         (FromJSON, ToJSON)
@@ -64,7 +62,7 @@ data Color
   | Yellow
   | Green
   | White
-  deriving (Eq, Show, Ord, Enum, Generic)
+  deriving (Show, Read, Eq, Ord, Enum, Bounded, Generic) -- All needed for the table
 
 instance ToJSON Color
 
@@ -79,7 +77,7 @@ data Rank
   | Three
   | Four
   | Five
-  deriving (Eq, Show, Ord, Enum, Generic)
+  deriving (Show, Read, Eq, Ord, Enum, Bounded, Generic) -- All needed for the table
 
 instance ToJSON Rank
 

@@ -24,6 +24,8 @@ dependencies:
 - random-shuffle
 - containers
 - split
+- beam-core
+- beam-postgres
 
 ghc-options:
   - -Wall
@@ -39,7 +41,7 @@ default-extensions:
   - MultiWayIf
   - TupleSections
   - DeriveGeneric
-  - DeriveAnyType
+  - RankNTypes
 
 library:
   source-dirs: lib

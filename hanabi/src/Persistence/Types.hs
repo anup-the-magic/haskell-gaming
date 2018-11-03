@@ -14,24 +14,24 @@ import qualified Hanabi.Types  as Types
 import           Prelude       hiding (id)
 
 data PlayerT f = Player
-  { id   :: C f Text
-  , name :: C f Text
+  { player_id :: C f Text
+  , name      :: C f Text
   } deriving (Generic)
 
 instance Table PlayerT where
   data PrimaryKey PlayerT f = PlayerId (C f Text)
                               deriving Generic
-  primaryKey = PlayerId . (id :: PlayerT f -> C f Text)
+  primaryKey = PlayerId . (player_id :: PlayerT f -> C f Text)
 
 data GameT f = Game
-  { id   :: C f Text
-  , seed :: C f Int
+  { game_id :: C f Text
+  , seed    :: C f Int
   } deriving (Generic)
 
 instance Table GameT where
   data PrimaryKey GameT f = GameId (C f Text)
                             deriving Generic
-  primaryKey = GameId . (id :: GameT f -> C f Text)
+  primaryKey = GameId . (game_id :: GameT f -> C f Text)
 
 data GamePlayerT f = GamePlayer
   { game_id   :: PrimaryKey GameT f
@@ -55,50 +55,50 @@ data MoveInfoMixin f = MoveInfo
   } deriving (Generic)
 
 data RankT f = Rank
-  { id     :: C f Text
-  , move   :: MoveInfoMixin f
-  , cluing :: PrimaryKey PlayerT f
-  , rank   :: C f Types.Rank
+  { rank_id :: C f Text
+  , move    :: MoveInfoMixin f
+  , cluing  :: PrimaryKey PlayerT f
+  , rank    :: C f Types.Rank
   } deriving (Generic)
 
 instance Table RankT where
   data PrimaryKey RankT f = RankId (C f Text)
                             deriving Generic
-  primaryKey = RankId . (id :: RankT f -> C f Text)
+  primaryKey = RankId . (rank_id :: RankT f -> C f Text)
 
 data ColorT f = Color
-  { id     :: C f Text
-  , move   :: MoveInfoMixin f
-  , cluing :: C f Types.PlayerId
-  , rank   :: C f Types.Color
+  { color_id :: C f Text
+  , move     :: MoveInfoMixin f
+  , cluing   :: C f Types.PlayerId
+  , rank     :: C f Types.Color
   } deriving (Generic)
 
 instance Table ColorT where
   data PrimaryKey ColorT f = ColorId (C f Text)
                              deriving Generic
-  primaryKey = ColorId . (id :: ColorT f -> C f Text)
+  primaryKey = ColorId . (color_id :: ColorT f -> C f Text)
 
 data PlayT f = Play
-  { id   :: C f Text
-  , move :: MoveInfoMixin f
-  , card :: C f Int
+  { play_id :: C f Text
+  , move    :: MoveInfoMixin f
+  , card    :: C f Int
   } deriving (Generic)
 
 instance Table PlayT where
   data PrimaryKey PlayT f = PlayId (C f Text)
                             deriving Generic
-  primaryKey = PlayId . (id :: PlayT f -> C f Text)
+  primaryKey = PlayId . (play_id :: PlayT f -> C f Text)
 
 data DiscardT f = Discard
-  { id   :: C f Text
-  , move :: MoveInfoMixin f
-  , card :: C f Int
+  { discard_id :: C f Text
+  , move       :: MoveInfoMixin f
+  , card       :: C f Int
   } deriving (Generic)
 
 instance Table DiscardT where
   data PrimaryKey DiscardT f = DiscardId (C f Text)
                                deriving Generic
-  primaryKey = DiscardId . (id :: DiscardT f -> C f Text)
+  primaryKey = DiscardId . (discard_id :: DiscardT f -> C f Text)
 
 data DB f = DB
   { players      :: f (TableEntity PlayerT)
@@ -124,6 +124,8 @@ type Player = PlayerT Identity
 deriving instance Show Player
 
 type Game = GameT Identity
+
+type GameId = PrimaryKey GameT Identity
 
 deriving instance Show Game
 

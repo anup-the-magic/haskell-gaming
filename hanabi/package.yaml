@@ -19,13 +19,15 @@ dependencies:
 - snap-core
 - snap-server
 - aeson
-- text
-- random
-- random-shuffle
-- containers
-- split
 - beam-core
 - beam-postgres
+- containers
+- postgresql-simple
+- random
+- random-shuffle
+- split
+- text
+- vector
 
 ghc-options:
   - -Wall

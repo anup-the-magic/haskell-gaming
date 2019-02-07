@@ -1,4 +1,4 @@
-# [github.com/anup-2s/haskell-gaming] (Haskell Gaming Platform)
+# [Haskell Gaming Platform](https://github.com/anup-2s/haskell-gaming)
 
 A gaming platform written entirely in Haskell, because why not.
 

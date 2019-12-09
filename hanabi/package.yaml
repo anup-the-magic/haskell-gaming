@@ -25,7 +25,6 @@ dependencies:
 - containers
 - split
 - beam-core
-- beam-postgres
 
 ghc-options:
   - -Wall

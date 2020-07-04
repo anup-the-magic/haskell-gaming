@@ -1,0 +1,7 @@
+{
+  "DebugTodo": false,
+  "DebugLog": false,
+  "FunctionInLet": false,
+  "MultiLineRecordFormatting": false,
+  "SingleRecordField": false
+}

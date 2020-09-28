@@ -1,14 +1,14 @@
-name:                satisfactory
-version:             0.1.0.0
-github:              "anup-the-magic/satisfactory"
-license:             BSD3
-author:              "Anup Kishore"
-maintainer:          "anup.kishore@gmail.com"
-copyright:           "MIT"
+name: satisfactory
+version: 0.1.0.0
+github: "anup-the-magic/satisfactory"
+license: BSD3
+author: "Anup Kishore"
+maintainer: "anup.kishore@gmail.com"
+copyright: "MIT"
 
 extra-source-files:
-- README.md
-- ChangeLog.md
+  - README.md
+  - ChangeLog.md
 
 # Metadata used when publishing your package
 # synopsis:            Short description of your package
@@ -17,32 +17,40 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/anup-the-magic/satisfactory#readme>
+description: Please see the README on GitHub at <https://github.com/anup-the-magic/satisfactory#readme>
 
 dependencies:
-- base >= 4.7 && < 5
+  - base >= 4.7 && < 5
+  - containers
+  - aeson
+
+_dev:
+  dependencies: &dev-dependencies
+    ormolu:
+    # implicit-hie:
+    # haskell-language-server:
+
+_base-exe: &base-exe
+  main: Main.hs
+  dependencies:
+    - satisfactory
+  ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
 
 library:
   source-dirs: src
 
 executables:
   satisfactory-exe:
-    main:                Main.hs
-    source-dirs:         app
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - satisfactory
+    <<: *base-exe
+    source-dirs: app
 
 tests:
   satisfactory-test:
-    main:                Spec.hs
-    source-dirs:         test
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
+    main: Spec.hs
+    source-dirs: test
     dependencies:
-    - satisfactory
+      <<: *dev-dependencies
+      satisfactory: {}

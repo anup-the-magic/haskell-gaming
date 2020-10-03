@@ -29,6 +29,7 @@ _dev:
     ormolu:
     # implicit-hie:
     # haskell-language-server:
+    hlint:
 
 _base-exe: &base-exe
   main: Main.hs

@@ -1,9 +1,10 @@
 # note, when upgrading lts:
 # $ stack build --copy-compiler-tool implicit-hie
+# $ stack build --copy-compiler-tool hlint
 # download new version of haskell-language-server -- see site for deets
 
 resolver: lts-16.16
 packages:
-  - .
+  - server
 extra-deps:
   - implicit-hie-0.1.1.0

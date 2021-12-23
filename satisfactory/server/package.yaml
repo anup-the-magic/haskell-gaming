@@ -27,8 +27,6 @@ dependencies:
 _dev:
   dependencies: &dev-dependencies
     ormolu:
-    # implicit-hie:
-    # haskell-language-server:
     hlint:
 
 _base-exe: &base-exe

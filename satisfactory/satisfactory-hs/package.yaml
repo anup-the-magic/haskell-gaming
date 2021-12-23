@@ -14,11 +14,44 @@ description: >
   Please see the README on GitHub at
   <https://github.com/anup-the-magic/haskell-gaming/blob/hanabi/satisfactory/server>
 
-
 dependencies:
   - base >= 4.7 && < 5
   - containers
   - aeson
+  - text
+
+default-extensions:
+  - OverloadedStrings
+  - DerivingVia
+  - DuplicateRecordFields
+
+  # Covered by GHC2021
+  - ConstraintKinds
+  - DeriveFoldable
+  - DeriveFunctor
+  - DeriveGeneric
+  - DeriveTraversable
+  - DoAndIfThenElse
+  - EmptyCase
+  - EmptyDataDecls
+  - EmptyDataDeriving
+  - ExistentialQuantification
+  - ExplicitForAll
+  - GADTSyntax
+  - GeneralizedNewtypeDeriving
+  - ImportQualifiedPost
+  - InstanceSigs
+  - MultiParamTypeClasses
+  - NamedFieldPuns
+  - NumericUnderscores
+  - PostfixOperators
+  - RankNTypes
+  - ScopedTypeVariables
+  - StandaloneDeriving
+  - TupleSections
+  - TypeApplications
+  - TypeOperators
+  - TypeSynonymInstances
 
 _dev:
   dependencies: &dev-dependencies

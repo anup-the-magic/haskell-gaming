@@ -1,13 +1,13 @@
 cradle:
   stack:
-    - path: "./src"
+    - path: "satisfactory-hs/src"
       component: "satisfactory:lib"
 
-    - path: "./app/Main.hs"
+    - path: "satisfactory-hs/app/Main.hs"
       component: "satisfactory:exe:satisfactory-exe"
 
-    - path: "./app/Paths_satisfactory.hs"
+    - path: "satisfactory-hs/app/Paths_satisfactory.hs"
       component: "satisfactory:exe:satisfactory-exe"
 
-    - path: "./test"
+    - path: "satisfactory-hs/test"
       component: "satisfactory:test:satisfactory-test"

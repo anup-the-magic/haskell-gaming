@@ -22,7 +22,12 @@ dependencies:
 
 default-extensions:
   - OverloadedStrings
+  - DataKinds
+  - FlexibleContexts
+
+  - DeriveAnyClass
   - DerivingVia
+  - DefaultSignatures
   - DuplicateRecordFields
 
   # Covered by GHC2021

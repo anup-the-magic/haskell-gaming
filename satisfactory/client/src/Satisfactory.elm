@@ -70,9 +70,3 @@ decoders_ =
     , production = production
     , recipe = recipe
     }
-
-
-view : Factory -> Html msg
-view factory =
-    Html.div []
-        []

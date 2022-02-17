@@ -1,0 +1,8707 @@
+[
+  {
+    "id": "Recipe_Wall_Concrete_8x1_C",
+    "name": "Basic Wall 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_8x4_C",
+    "name": "Basic Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_8x4_ConveyorHole_01_C",
+    "name": "Conveyor Wall x1",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_8x4_ConveyorHole_02_C",
+    "name": "Conveyor Wall x2",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_8x4_ConveyorHole_03_C",
+    "name": "Conveyor Wall x3",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_8x4_Corner_01_C",
+    "name": "Tilted Corner Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_8x4_Window_01_C",
+    "name": "Single Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_8x4_Window_02_C",
+    "name": "Frame Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_8x4_Window_03_C",
+    "name": "Panel Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_8x4_Window_04_C",
+    "name": "Reinforced Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_8x8_Corner_01_C",
+    "name": "Tilted Corner Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_Angular_8x4_C",
+    "name": "Tilted Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_Angular_8x8_C",
+    "name": "Tilted Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_CDoor_8x4_C",
+    "name": "Center Door Wall",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_FlipTris_8x1_C",
+    "name": "Inv. Ramp Wall 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_FlipTris_8x2_C",
+    "name": "Inv. Ramp Wall 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_FlipTris_8x4_C",
+    "name": "Inv. Ramp Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_FlipTris_8x8_C",
+    "name": "Inv. Ramp Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_Gate_8x4_C",
+    "name": "Gate Hole Wall",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_SDoor_8x4_C",
+    "name": "Side Door Wall",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_Tris_8x1_C",
+    "name": "Ramp Wall 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_Tris_8x2_C",
+    "name": "Ramp Wall 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_Tris_8x4_C",
+    "name": "Ramp Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Concrete_Tris_8x8_C",
+    "name": "Ramp Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_8x4_01_C",
+    "name": "Basic Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Conveyor_8x4_01_C",
+    "name": "Conveyor Wall x3",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Conveyor_8x4_02_C",
+    "name": "Conveyor Wall x2",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Conveyor_8x4_03_C",
+    "name": "Conveyor Wall x1",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Door_8x4_01_C",
+    "name": "Center Door Wall",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Door_8x4_03_C",
+    "name": "Side Door Wall",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Gate_8x4_01_C",
+    "name": "Gate Hole Wall",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_8x1_C",
+    "name": "Basic Wall 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_8x4_Corner_01_C",
+    "name": "Tilted Corner Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_8x8_Corner_01_C",
+    "name": "Tilted Corner Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_Angular_8x4_C",
+    "name": "Tilted Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_Angular_8x8_C",
+    "name": "Tilted Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_FlipTris_8x1_C",
+    "name": "Inv. Ramp Wall 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_FlipTris_8x2_C",
+    "name": "Inv. Ramp Wall 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_FlipTris_8x4_C",
+    "name": "Inv. Ramp Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_FlipTris_8x8_C",
+    "name": "Inv. Ramp Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_Tris_8x1_C",
+    "name": "Ramp Wall 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_Tris_8x2_C",
+    "name": "Ramp Wall 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_Tris_8x4_C",
+    "name": "Ramp Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Orange_Tris_8x8_C",
+    "name": "Ramp Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Window_8x4_01_C",
+    "name": "Single Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Window_8x4_02_C",
+    "name": "Frame Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Window_8x4_03_C",
+    "name": "Panel Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Window_8x4_04_C",
+    "name": "Reinforced Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_8x4_Gate_01_C",
+    "name": "Gate Hole Wall",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_8x4_Window_01_C",
+    "name": "Single Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_8x4_Window_02_C",
+    "name": "Reinforced Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_8x4_Window_03_C",
+    "name": "Frame Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_8x4_Window_04_C",
+    "name": "Panel Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Steel_8x4_Corner_01_C",
+    "name": "Tilted Corner Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Steel_8x8_Corner_01_C",
+    "name": "Tilted Corner Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_8x1_C",
+    "name": "Basic Wall 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_FlipTris_8x1_C",
+    "name": "Inv. Ramp Wall 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_FlipTris_8x2_C",
+    "name": "Inv. Ramp Wall 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_FlipTris_8x4_C",
+    "name": "Inv. Ramp Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_FlipTris_8x8_C",
+    "name": "Inv. Ramp Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_Tris_8x1_C",
+    "name": "Ramp Wall 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_Tris_8x2_C",
+    "name": "Ramp Wall 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_Tris_8x4_C",
+    "name": "Ramp Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SteelWall_Tris_8x8_C",
+    "name": "Ramp Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_8x4_02_C",
+    "name": "Basic Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Conveyor_8x4_01_Steel_C",
+    "name": "Conveyor Wall x3",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Conveyor_8x4_02_Steel_C",
+    "name": "Conveyor Wall x2",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Conveyor_8x4_03_Steel_C",
+    "name": "Conveyor Wall x1",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Door_8x4_01_Steel_C",
+    "name": "Center Door Wall",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Door_8x4_03_Steel_C",
+    "name": "Side Door Wall",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_WallSet_Steel_Angular_8x4_C",
+    "name": "Tilted Wall 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_WallSet_Steel_Angular_8x8_C",
+    "name": "Tilted Wall 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorPole_C",
+    "name": "Conveyor Pole",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_ConveyorPole_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorBeltMk1_C",
+    "name": "Conveyor Belt Mk.1",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerPoleMk1_C",
+    "name": "Power Pole Mk.1",
+    "inputs": [
+      {
+        "item": "Desc_Wire_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerPoleWall_C",
+    "name": "Wall Outlet Mk.1",
+    "inputs": [
+      {
+        "item": "Desc_Wire_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PowerPoleWall_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerLine_C",
+    "name": "Power Line",
+    "inputs": [
+      {
+        "item": "Desc_Cable_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PowerLine_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConstructorMk1_C",
+    "name": "Constructor",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 8,
+        "rate": 480
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_MinerMk1_C",
+    "name": "Miner Mk.1",
+    "inputs": [
+      {
+        "item": "BP_ItemDescriptorPortableMiner_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SmelterBasicMk1_C",
+    "name": "Smelter",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_Wire_C",
+        "amount": 8,
+        "rate": 480
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StorageContainerMk1_C",
+    "name": "Storage Container",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_WorkBench_C",
+    "name": "Craft Bench",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_WorkBench_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Workshop_C",
+    "name": "Equipment Workshop",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 6,
+        "rate": 360
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 4,
+        "rate": 240
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Workshop_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PortableMiner_C",
+    "name": "Portable Miner",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 3
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 4,
+        "rate": 6
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_ItemDescriptorPortableMiner_C",
+        "amount": 1,
+        "rate": 1.5
+      }
+    ],
+    "duration": 40,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_GeneratorBiomass_C",
+    "name": "Biomass Burner",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 15,
+        "rate": 900
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 15,
+        "rate": 900
+      },
+      {
+        "item": "Desc_Wire_C",
+        "amount": 25,
+        "rate": 1500
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_GeneratorBiomass_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SpaceElevator_C",
+    "name": "Space Elevator",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 500,
+        "rate": 30000
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 250,
+        "rate": 15000
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 400,
+        "rate": 24000
+      },
+      {
+        "item": "Desc_Wire_C",
+        "amount": 1500,
+        "rate": 90000
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_SpaceElevator_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "FGBuildGun"
+    ]
+  },
+  {
+    "id": "Recipe_XMassTree_C",
+    "name": "Giant FICSMAS Tree",
+    "inputs": [
+      {
+        "item": "Desc_XmasBranch_C",
+        "amount": 100,
+        "rate": 6000
+      },
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 500,
+        "rate": 30000
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_XMassTree_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_TradingPost_C",
+    "name": "The HUB",
+    "inputs": [
+      {
+        "item": "Desc_HUBParts_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_TradingPost_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_XenoZapper_C",
+    "name": "Xeno-Zapper",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 10,
+        "rate": 15
+      },
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 2,
+        "rate": 3
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 15,
+        "rate": 22.5
+      },
+      {
+        "item": "Desc_Wire_C",
+        "amount": 50,
+        "rate": 75
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorShockShank_C",
+        "amount": 1,
+        "rate": 1.5
+      }
+    ],
+    "duration": 40,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_Fence_01_C",
+    "name": "Industrial Railing",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 4,
+        "rate": 240
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Walkway_Cross_C",
+    "name": "Walkway Crossing",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_WalkwayCross_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Walkway_Ramp_C",
+    "name": "Walkway Ramp",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_WalkwayRamp_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Walkway_Straight_C",
+    "name": "Walkway Straight",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_WalkwayStraight_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Walkway_T_C",
+    "name": "Walkway T-Crossing",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_WalkwayT_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Walkway_Turn_C",
+    "name": "Walkway Turn",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_WalkwayTurn_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Conveyor_8x4_04_C",
+    "name": "Wall Conveyor Perpendicular",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Conveyor_8x4_04_Steel_C",
+    "name": "Wall Conveyor Perpendicular",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_OilPump_C",
+    "name": "Oil Extractor",
+    "inputs": [
+      {
+        "item": "Desc_Motor_C",
+        "amount": 15,
+        "rate": 900
+      },
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 60,
+        "rate": 3600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_OilPump_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_OilRefinery_C",
+    "name": "Refinery",
+    "inputs": [
+      {
+        "item": "Desc_Motor_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 30,
+        "rate": 1800
+      },
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 20,
+        "rate": 1200
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_OilRefinery_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Valve_C",
+    "name": "Valve",
+    "inputs": [
+      {
+        "item": "Desc_Rubber_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 4,
+        "rate": 240
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Valve_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_AssemblerMk1_C",
+    "name": "Assembler",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 8,
+        "rate": 480
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_GeneratorCoal_C",
+    "name": "Coal Generator",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 30,
+        "rate": 1800
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_GeneratorCoal_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipeSupport_C",
+    "name": "Pipeline Support",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PipelineSupport_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Pipeline_C",
+    "name": "Pipeline Mk.1",
+    "inputs": [
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Pipeline_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipelineJunction_Cross_C",
+    "name": "Pipeline Junction Cross",
+    "inputs": [
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PipelineJunction_Cross_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipelinePump_C",
+    "name": "Pipeline Pump Mk.1",
+    "inputs": [
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PipelinePump_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipeStorageTank_C",
+    "name": "Fluid Buffer",
+    "inputs": [
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_ModularFrame_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PipeStorageTank_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_WaterPump_C",
+    "name": "Water Extractor",
+    "inputs": [
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_WaterPump_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ResourceSink_C",
+    "name": "AWESOME Sink",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 15,
+        "rate": 900
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 30,
+        "rate": 1800
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 45,
+        "rate": 2700
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_ResourceSink_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ResourceSinkShop_C",
+    "name": "AWESOME Shop",
+    "inputs": [
+      {
+        "item": "Desc_IronScrew_C",
+        "amount": 200,
+        "rate": 12000
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_ResourceSinkShop_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_IndustrialTank_C",
+    "name": "Industrial Fluid Buffer",
+    "inputs": [
+      {
+        "item": "Desc_Plastic_C",
+        "amount": 30,
+        "rate": 1800
+      },
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_IndustrialTank_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Packager_C",
+    "name": "Packager",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_Rubber_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Plastic_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Packager_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Blender_C",
+    "name": "Blender",
+    "inputs": [
+      {
+        "item": "Desc_Motor_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_AluminumCasing_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_ModularFrameLightweight_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Blender_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ManufacturerMk1_C",
+    "name": "Manufacturer",
+    "inputs": [
+      {
+        "item": "Desc_Motor_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_Plastic_C",
+        "amount": 50,
+        "rate": 3000
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Truck_C",
+    "name": "Truck",
+    "inputs": [
+      {
+        "item": "Desc_Motor_C",
+        "amount": 8,
+        "rate": 480
+      },
+      {
+        "item": "Desc_Computer_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_Rubber_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "BP_EquipmentDescriptorBeacon_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Truck_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_MinerMk2_C",
+    "name": "Miner Mk.2",
+    "inputs": [
+      {
+        "item": "BP_ItemDescriptorPortableMiner_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_ModularFrame_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SmelterMk1_C",
+    "name": "Foundry",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrame_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 20,
+        "rate": 1200
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_DroneStation_C",
+    "name": "Drone Port",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_HighSpeedConnector_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_AluminumPlate_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_AluminumCasing_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_ModularFrameLightweight_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_DroneStation_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_DroneTransport_C",
+    "name": "Drone",
+    "inputs": [
+      {
+        "item": "Desc_Motor_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_AluminumPlate_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_ModularFrameLightweight_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_CircuitBoardHighSpeed_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "BP_ItemDescriptorPortableMiner_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_DroneTransport_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_FrackingExtractor_C",
+    "name": "Resource Well Extractor",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Plastic_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_FrackingExtractor_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_FrackingSmasher_C",
+    "name": "Resource Well Pressurizer",
+    "inputs": [
+      {
+        "item": "Desc_Wire_C",
+        "amount": 200,
+        "rate": 12000
+      },
+      {
+        "item": "Desc_Rubber_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_Motor_C",
+        "amount": 50,
+        "rate": 3000
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_FrackingSmasher_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_HadronCollider_C",
+    "name": "Particle Accelerator",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameLightweight_C",
+        "amount": 25,
+        "rate": 1500
+      },
+      {
+        "item": "Desc_ElectromagneticControlRod_C",
+        "amount": 100,
+        "rate": 6000
+      },
+      {
+        "item": "Desc_ComputerSuper_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_CoolingSystem_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_ModularFrameFused_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_MotorLightweight_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_HadronCollider_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_GeneratorNuclear_C",
+    "name": "Nuclear Power Plant",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 250,
+        "rate": 15000
+      },
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 25,
+        "rate": 1500
+      },
+      {
+        "item": "Desc_ComputerSuper_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 100,
+        "rate": 6000
+      },
+      {
+        "item": "Desc_AluminumPlate_C",
+        "amount": 100,
+        "rate": 6000
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_GeneratorNuclear_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorBeltMk5_C",
+    "name": "Conveyor Belt Mk.5",
+    "inputs": [
+      {
+        "item": "Desc_AluminumPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorLiftMk5_C",
+    "name": "Conveyor Lift Mk.5",
+    "inputs": [
+      {
+        "item": "Desc_AluminumPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_MinerMk3_C",
+    "name": "Miner Mk.3",
+    "inputs": [
+      {
+        "item": "BP_ItemDescriptorPortableMiner_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_ComputerSuper_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_ModularFrameFused_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_MotorLightweight_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_8x1_01_C",
+    "name": "Foundation 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_8x2_01_C",
+    "name": "Foundation 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_8x4_01_C",
+    "name": "Foundation 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_8x1_01_C",
+    "name": "Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_8x2_01_C",
+    "name": "Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_8x4_01_C",
+    "name": "Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_8x4_Inverted_01_C",
+    "name": "Inv. Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_8x8x8_C",
+    "name": "Double Ramp 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Diagonal_8x1_01_C",
+    "name": "Down Corner Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Diagonal_8x1_02_C",
+    "name": "Up Corner Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Diagonal_8x2_01_C",
+    "name": "Down Corner Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Diagonal_8x2_02_C",
+    "name": "Up Corner Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Diagonal_8x4_01_C",
+    "name": "Down Corner Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Diagonal_8x4_02_C",
+    "name": "Up Corner Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_C",
+    "name": "Double Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_RampDouble_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_8x1_C",
+    "name": "Double Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampInverted_8x1_C",
+    "name": "Inv. Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampInverted_8x1_Corner_01_C",
+    "name": "Inv. Up Corner 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampInverted_8x1_Corner_02_C",
+    "name": "Inv. Down Corner 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampInverted_8x2_01_C",
+    "name": "Inv. Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampInverted_8x2_Corner_01_C",
+    "name": "Inv. Up Corner 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampInverted_8x2_Corner_02_C",
+    "name": "Inv. Down Corner 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampInverted_8x4_Corner_01_C",
+    "name": "Inv. Up Corner 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampInverted_8x4_Corner_02_C",
+    "name": "Inv. Down Corner 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_LookoutTower_C",
+    "name": "Lookout Tower",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_LookoutTower_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorAttachmentMerger_C",
+    "name": "Conveyor Merger",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_ConveyorAttachmentMerger_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorAttachmentSplitter_C",
+    "name": "Conveyor Splitter",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_ConveyorAttachmentSplitter_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorLiftMk1_C",
+    "name": "Conveyor Lift Mk.1",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Mam_C",
+    "name": "MAM",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 15,
+        "rate": 900
+      },
+      {
+        "item": "Desc_Wire_C",
+        "amount": 45,
+        "rate": 2700
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Mam_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StoragePlayer_C",
+    "name": "Personal Storage Box",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 6,
+        "rate": 360
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 6,
+        "rate": 360
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StoragePlayer_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ObjectScanner_C",
+    "name": "Object Scanner",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 4,
+        "rate": 6
+      },
+      {
+        "item": "BP_EquipmentDescriptorBeacon_C",
+        "amount": 3,
+        "rate": 4.5
+      },
+      {
+        "item": "Desc_IronScrew_C",
+        "amount": 50,
+        "rate": 75
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorObjectScanner_C",
+        "amount": 1,
+        "rate": 1.5
+      }
+    ],
+    "duration": 40,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_Chainsaw_C",
+    "name": "Chainsaw",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 5,
+        "rate": 5
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 25,
+        "rate": 25
+      },
+      {
+        "item": "Desc_IronScrew_C",
+        "amount": 160,
+        "rate": 160
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 15,
+        "rate": 15
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Chainsaw_C",
+        "amount": 1,
+        "rate": 1
+      }
+    ],
+    "duration": 60,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_JumpPadAdjustable_C",
+    "name": "Jump Pad",
+    "inputs": [
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 15,
+        "rate": 900
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_JumpPadAdjustable_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_UJellyLandingPad_C",
+    "name": "U-Jelly Landing Pad",
+    "inputs": [
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_GenericBiomass_C",
+        "amount": 200,
+        "rate": 12000
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_LandingPad_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorBeltMk2_C",
+    "name": "Conveyor Belt Mk.2",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorLiftMk2_C",
+    "name": "Conveyor Lift Mk.2",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorPoleStackable_C",
+    "name": "Stackable Conveyor Pole",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_ConveyorPoleStackable_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_TruckStation_C",
+    "name": "Truck Station",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrame_C",
+        "amount": 15,
+        "rate": 900
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 50,
+        "rate": 3000
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_TruckStation_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Tractor_C",
+    "name": "Tractor",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrame_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "BP_EquipmentDescriptorBeacon_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Tractor_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_XenoBasher_C",
+    "name": "Xeno-Basher",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrame_C",
+        "amount": 5,
+        "rate": 3.75
+      },
+      {
+        "item": "BP_EquipmentDescriptorShockShank_C",
+        "amount": 2,
+        "rate": 1.5
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 25,
+        "rate": 18.75
+      },
+      {
+        "item": "Desc_Wire_C",
+        "amount": 500,
+        "rate": 375
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorStunSpear_C",
+        "amount": 1,
+        "rate": 0.75
+      }
+    ],
+    "duration": 80,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipeHyperStart_C",
+    "name": "Hypertube Entrance",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PipeHyperStart_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_HyperPoleStackable_C",
+    "name": "Stackable Hypertube Support",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_HyperPoleStackable_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipeHyperSupport_C",
+    "name": "Hypertube Support",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PipeHyperSupport_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipeHyper_C",
+    "name": "Hypertube",
+    "inputs": [
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PipeHyper_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorBeltMk3_C",
+    "name": "Conveyor Belt Mk.3",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorLiftMk3_C",
+    "name": "Conveyor Lift Mk.3",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipeSupportStackable_C",
+    "name": "Stackable Pipeline Support",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PipeSupportStackable_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerStorageMk1_C",
+    "name": "Power Storage",
+    "inputs": [
+      {
+        "item": "Desc_Wire_C",
+        "amount": 100,
+        "rate": 6000
+      },
+      {
+        "item": "Desc_ModularFrame_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Stator_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StorageContainerMk2_C",
+    "name": "Industrial Storage Container",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 20,
+        "rate": 1200
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorBeltMk4_C",
+    "name": "Conveyor Belt Mk.4",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorLiftMk4_C",
+    "name": "Conveyor Lift Mk.4",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_GeneratorFuel_C",
+    "name": "Fuel Generator",
+    "inputs": [
+      {
+        "item": "Desc_Computer_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Motor_C",
+        "amount": 15,
+        "rate": 900
+      },
+      {
+        "item": "Desc_Rubber_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 50,
+        "rate": 3000
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_GeneratorFuel_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_JetPack_C",
+    "name": "Jetpack",
+    "inputs": [
+      {
+        "item": "Desc_Plastic_C",
+        "amount": 50,
+        "rate": 25
+      },
+      {
+        "item": "Desc_Rubber_C",
+        "amount": 50,
+        "rate": 25
+      },
+      {
+        "item": "Desc_CircuitBoard_C",
+        "amount": 15,
+        "rate": 7.5
+      },
+      {
+        "item": "Desc_Motor_C",
+        "amount": 5,
+        "rate": 2.5
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorJetPack_C",
+        "amount": 1,
+        "rate": 0.5
+      }
+    ],
+    "duration": 120,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_RailroadBlockSignal_C",
+    "name": "Block Signal",
+    "inputs": [
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_CircuitBoard_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_RailroadBlockSignal_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RailroadPathSignal_C",
+    "name": "Path Signal",
+    "inputs": [
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_Computer_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_RailroadPathSignal_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_TrainDockingStation_C",
+    "name": "Freight Platform",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 6,
+        "rate": 360
+      },
+      {
+        "item": "Desc_Computer_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 25,
+        "rate": 1500
+      },
+      {
+        "item": "Desc_Motor_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_TrainDockingStation_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_TrainDockingStationLiquid_C",
+    "name": "Fluid Freight Platform",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 6,
+        "rate": 360
+      },
+      {
+        "item": "Desc_Computer_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 25,
+        "rate": 1500
+      },
+      {
+        "item": "Desc_Motor_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_TrainDockingStationLiquid_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_TrainPlatformEmpty_C",
+    "name": "Empty Platform",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 6,
+        "rate": 360
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 50,
+        "rate": 3000
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_TrainPlatformEmpty_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_TrainPlatformEmpty_02_C",
+    "name": "Empty Platform With Catwalk",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 6,
+        "rate": 360
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 50,
+        "rate": 3000
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_TrainStation_C",
+    "name": "Train Station",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_Computer_C",
+        "amount": 8,
+        "rate": 480
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 25,
+        "rate": 1500
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_TrainStation_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RailroadTrack_C",
+    "name": "Railway",
+    "inputs": [
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_RailroadTrack_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_FreightWagon_C",
+    "name": "Freight Car",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_FreightWagon_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Locomotive_C",
+    "name": "Electric Locomotive",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_Motor_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 15,
+        "rate": 900
+      },
+      {
+        "item": "Desc_Computer_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "BP_EquipmentDescriptorBeacon_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Locomotive_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Gasmask_C",
+    "name": "Gas Mask",
+    "inputs": [
+      {
+        "item": "Desc_Rubber_C",
+        "amount": 100,
+        "rate": 75
+      },
+      {
+        "item": "Desc_Plastic_C",
+        "amount": 100,
+        "rate": 75
+      },
+      {
+        "item": "Desc_Fabric_C",
+        "amount": 100,
+        "rate": 75
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorGasmask_C",
+        "amount": 1,
+        "rate": 0.75
+      }
+    ],
+    "duration": 80,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipelineMK2_C",
+    "name": "Pipeline Mk.2",
+    "inputs": [
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Plastic_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipelinePumpMK2_C",
+    "name": "Pipeline Pump Mk.2",
+    "inputs": [
+      {
+        "item": "Desc_Motor_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_Plastic_C",
+        "amount": 8,
+        "rate": 480
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_HazmatSuit_C",
+    "name": "Hazmat Suit",
+    "inputs": [
+      {
+        "item": "Desc_Rubber_C",
+        "amount": 50,
+        "rate": 25
+      },
+      {
+        "item": "Desc_Plastic_C",
+        "amount": 50,
+        "rate": 25
+      },
+      {
+        "item": "Desc_AluminumPlate_C",
+        "amount": 50,
+        "rate": 25
+      },
+      {
+        "item": "Desc_Fabric_C",
+        "amount": 50,
+        "rate": 25
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorHazmatSuit_C",
+        "amount": 1,
+        "rate": 0.5
+      }
+    ],
+    "duration": 120,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_Hoverpack_C",
+    "name": "Hover Pack",
+    "inputs": [
+      {
+        "item": "Desc_Motor_C",
+        "amount": 8,
+        "rate": 4
+      },
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 4,
+        "rate": 2
+      },
+      {
+        "item": "Desc_Computer_C",
+        "amount": 8,
+        "rate": 4
+      },
+      {
+        "item": "Desc_AluminumPlate_C",
+        "amount": 40,
+        "rate": 20
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorHoverPack_C",
+        "amount": 1,
+        "rate": 0.5
+      }
+    ],
+    "duration": 120,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_RebarGun_C",
+    "name": "Rebar Gun",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 6,
+        "rate": 3.5999999999999996
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 16,
+        "rate": 9.6
+      },
+      {
+        "item": "Desc_IronScrew_C",
+        "amount": 100,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_RebarGunProjectile_C",
+        "amount": 1,
+        "rate": 0.6
+      }
+    ],
+    "duration": 100,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_MedicinalInhalerAlienOrgans_C",
+    "name": "Medicinal Inhaler: Alien Organs",
+    "inputs": [
+      {
+        "item": "Desc_SpitterParts_C",
+        "amount": 3,
+        "rate": 9
+      },
+      {
+        "item": "Desc_Mycelia_C",
+        "amount": 5,
+        "rate": 15
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Medkit_C",
+        "amount": 1,
+        "rate": 3
+      }
+    ],
+    "duration": 20,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_ZipLine_C",
+    "name": "Zipline",
+    "inputs": [
+      {
+        "item": "BP_EquipmentDescriptorShockShank_C",
+        "amount": 1,
+        "rate": 1.5
+      },
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 30,
+        "rate": 45
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 3,
+        "rate": 4.5
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 10,
+        "rate": 15
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EqDescZipLine_C",
+        "amount": 1,
+        "rate": 1.5
+      }
+    ],
+    "duration": 40,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorAttachmentSplitterSmart_C",
+    "name": "Smart Splitter",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_CircuitBoardHighSpeed_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_ConveyorAttachmentSplitterSmart_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerSwitch_C",
+    "name": "Power Switch",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_CircuitBoardHighSpeed_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PowerSwitch_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerPoleMk2_C",
+    "name": "Power Pole Mk.2",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 6,
+        "rate": 360
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_BladeRunners_C",
+    "name": "Blade Runners",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 50,
+        "rate": 37.5
+      },
+      {
+        "item": "Desc_ModularFrame_C",
+        "amount": 3,
+        "rate": 2.25
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 3,
+        "rate": 2.25
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorJumpingStilts_C",
+        "amount": 1,
+        "rate": 0.75
+      }
+    ],
+    "duration": 80,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerPoleMk3_C",
+    "name": "Power Pole Mk.3",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedConnector_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Rubber_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorAttachmentSplitterProgrammable_C",
+    "name": "Programmable Splitter",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_Motor_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_ComputerSuper_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_ConveyorAttachmentSplitterProgrammable_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_GeneratorGeoThermal_C",
+    "name": "Geothermal Generator",
+    "inputs": [
+      {
+        "item": "Desc_ComputerSuper_C",
+        "amount": 8,
+        "rate": 480
+      },
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 16,
+        "rate": 960
+      },
+      {
+        "item": "Desc_HighSpeedConnector_C",
+        "amount": 16,
+        "rate": 960
+      },
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 40,
+        "rate": 2400
+      },
+      {
+        "item": "Desc_Rubber_C",
+        "amount": 80,
+        "rate": 4800
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_GeneratorGeoThermal_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Parachute_C",
+    "name": "Parachute",
+    "inputs": [
+      {
+        "item": "Desc_Fabric_C",
+        "amount": 10,
+        "rate": 15
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 5,
+        "rate": 7.5
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Parachute_C",
+        "amount": 5,
+        "rate": 7.5
+      }
+    ],
+    "duration": 40,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_MedicinalInhaler_C",
+    "name": "Nutritional Inhaler",
+    "inputs": [
+      {
+        "item": "Desc_Shroom_C",
+        "amount": 1,
+        "rate": 3
+      },
+      {
+        "item": "Desc_Berry_C",
+        "amount": 2,
+        "rate": 6
+      },
+      {
+        "item": "Desc_Nut_C",
+        "amount": 3,
+        "rate": 9
+      },
+      {
+        "item": "Desc_Mycelia_C",
+        "amount": 5,
+        "rate": 15
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Medkit_C",
+        "amount": 1,
+        "rate": 3
+      }
+    ],
+    "duration": 20,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_NutritionalInhaler_C",
+    "name": "Medicinal Inhaler",
+    "inputs": [
+      {
+        "item": "Desc_Shroom_C",
+        "amount": 1,
+        "rate": 3
+      },
+      {
+        "item": "Desc_Berry_C",
+        "amount": 3,
+        "rate": 9
+      },
+      {
+        "item": "Desc_Nut_C",
+        "amount": 7,
+        "rate": 21
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Medkit_C",
+        "amount": 1,
+        "rate": 3
+      }
+    ],
+    "duration": 20,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_Explorer_C",
+    "name": "Explorer",
+    "inputs": [
+      {
+        "item": "Desc_CrystalOscillator_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_Motor_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "BP_EquipmentDescriptorBeacon_C",
+        "amount": 15,
+        "rate": 900
+      },
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Explorer_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RadarTower_C",
+    "name": "Radar Tower",
+    "inputs": [
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 30,
+        "rate": 1800
+      },
+      {
+        "item": "Desc_CrystalOscillator_C",
+        "amount": 30,
+        "rate": 1800
+      },
+      {
+        "item": "BP_EquipmentDescriptorBeacon_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 100,
+        "rate": 6000
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_RadarTower_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_NobeliskDetonator_C",
+    "name": "Nobelisk Detonator",
+    "inputs": [
+      {
+        "item": "BP_EquipmentDescriptorObjectScanner_C",
+        "amount": 5,
+        "rate": 3.75
+      },
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 5,
+        "rate": 3.75
+      },
+      {
+        "item": "Desc_Cable_C",
+        "amount": 50,
+        "rate": 37.5
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorNobeliskDetonator_C",
+        "amount": 1,
+        "rate": 0.75
+      }
+    ],
+    "duration": 80,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_SpaceRifleMk1_C",
+    "name": "Rifle",
+    "inputs": [
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 25,
+        "rate": 12.5
+      },
+      {
+        "item": "Desc_ModularFrameHeavy_C",
+        "amount": 3,
+        "rate": 1.5
+      },
+      {
+        "item": "Desc_CircuitBoard_C",
+        "amount": 20,
+        "rate": 10
+      },
+      {
+        "item": "Desc_IronScrew_C",
+        "amount": 250,
+        "rate": 125
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorRifle_C",
+        "amount": 1,
+        "rate": 0.5
+      }
+    ],
+    "duration": 120,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_CandyCaneBasher_C",
+    "name": "Candy Cane Basher",
+    "inputs": [
+      {
+        "item": "BP_EquipmentDescriptorShockShank_C",
+        "amount": 2,
+        "rate": 1.5
+      },
+      {
+        "item": "Desc_CandyCane_C",
+        "amount": 25,
+        "rate": 18.75
+      },
+      {
+        "item": "Desc_Gift_C",
+        "amount": 15,
+        "rate": 11.25
+      }
+    ],
+    "outputs": [
+      {
+        "item": "BP_EquipmentDescriptorCandyCane_C",
+        "amount": 1,
+        "rate": 0.75
+      }
+    ],
+    "duration": 80,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_CandyCaneDecor_C",
+    "name": "Candy Cane",
+    "inputs": [
+      {
+        "item": "Desc_CandyCane_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_XmasBow_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_CandyCaneDecor_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Snowman_C",
+    "name": "Snowman",
+    "inputs": [
+      {
+        "item": "Desc_Snow_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_CandyCane_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_XmasBow_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Snowman_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_TreeGiftProducer_C",
+    "name": "FICSMAS Gift Tree",
+    "inputs": [
+      {
+        "item": "Desc_Gift_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_XmasBranch_C",
+        "amount": 100,
+        "rate": 6000
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_TreeGiftProducer_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_xmassLights_C",
+    "name": "FICSMAS Power Light",
+    "inputs": [
+      {
+        "item": "Desc_Cable_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_XmasBallCluster_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_xmassLights_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_SnowDispenser_C",
+    "name": "FICSMAS Snow Dispenser",
+    "inputs": [
+      {
+        "item": "Desc_CandyCane_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Snow_C",
+        "amount": 100,
+        "rate": 6000
+      },
+      {
+        "item": "Desc_XmasWreath_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_SnowDispenser_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_WreathDecor_C",
+    "name": "FICSMAS Wreath",
+    "inputs": [
+      {
+        "item": "Desc_XmasWreath_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_XmasBow_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_WreathDecor_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Beam_C",
+    "name": "Metal Beam",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Beam_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Beam_Connector_C",
+    "name": "Beam Connector",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Beam_Connector_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Beam_Connector_Double_C",
+    "name": "Beam Connector Double",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Beam_Connector_Double_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Beam_Painted_C",
+    "name": "Painted Beam",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Beam_Painted_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Beam_Support_C",
+    "name": "Beam Support",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Beam_Support_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StandaloneWidgetSign_Huge_C",
+    "name": "Large Billboard",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 12,
+        "rate": 720
+      },
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 20,
+        "rate": 1200
+      },
+      {
+        "item": "Desc_CrystalOscillator_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StandaloneWidgetSign_Huge_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StandaloneWidgetSign_Large_C",
+    "name": "Small Billboard",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_CrystalOscillator_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StandaloneWidgetSign_Large_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Catwalk_Cross_C",
+    "name": "Catwalk Crossing",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_CatwalkCross_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Catwalk_Ramp_C",
+    "name": "Catwalk Ramp",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_CatwalkRamp_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Catwalk_Stairs_C",
+    "name": "Catwalk Stairs",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_CatwalkStairs_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Catwalk_Straight_C",
+    "name": "Catwalk Straight",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_CatwalkStraight_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Catwalk_T_C",
+    "name": "Catwalk T-Crossing",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_CatwalkT_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Catwalk_Turn_C",
+    "name": "Catwalk Corner",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_CatwalkTurn_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_CeilingLight_C",
+    "name": "Ceiling Light",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 50,
+        "rate": 3000
+      },
+      {
+        "item": "Desc_Wire_C",
+        "amount": 16,
+        "rate": 960
+      },
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 6,
+        "rate": 360
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_CeilingLight_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Flat_Frame_01_C",
+    "name": "Frame Floor",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_Frame_01_C",
+    "name": "Frame Foundation",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_FoundationGlass_01_C",
+    "name": "Glass Frame Foundation",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Frame_01_C",
+    "name": "Frame Ramp",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Frame_Inverted_01_C",
+    "name": "Inverted Frame Ramp",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Frame_01_C",
+    "name": "Frame Wall",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Railing_01_C",
+    "name": "Modern Railing",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Pillar_Small_Metal_C",
+    "name": "Small Metal Pillar",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Pillar_Small_Metal_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PillarBase_Small_C",
+    "name": "Small Pillar Support",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PillarBase_Small_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PillarBase_C",
+    "name": "Big Pillar Support",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PillarBase_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PillarMiddle_C",
+    "name": "Big Metal Pillar",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PillarMiddle_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ladder_C",
+    "name": "Ladder",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Ladder_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_ConcretePolished_8x1_C",
+    "name": "Foundation 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_ConcretePolished_8x2_C",
+    "name": "Foundation 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_ConcretePolished_8x4_C",
+    "name": "Foundation 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Polished_8x1_C",
+    "name": "Inv. Down Corner 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Polished_8x2_C",
+    "name": "Inv. Down Corner 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Polished_8x4_C",
+    "name": "Inv. Down Corner 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Polished_8x1_C",
+    "name": "Inv. Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Polished_8x2_C",
+    "name": "Inv. Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Polished_8x4_C",
+    "name": "Inv. Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Polished_8x1_C",
+    "name": "Inv. Up Corner 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Polished_8x2_C",
+    "name": "Inv. Up Corner 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Polished_8x4_C",
+    "name": "Inv. Up Corner 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Polished_8x1_C",
+    "name": "Down Corner Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Polished_8x2_C",
+    "name": "Down Corner Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Polished_8x4_C",
+    "name": "Down Corner Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Polished_8x1_C",
+    "name": "Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Polished_8x2_C",
+    "name": "Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Polished_8x4_C",
+    "name": "Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Polished_8x1_C",
+    "name": "Up Corner Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Polished_8x2_C",
+    "name": "Up Corner Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Polished_8x4_C",
+    "name": "Up Corner Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Polished_8x1_C",
+    "name": "Double Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Polished_8x2_C",
+    "name": "Double Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Polished_8x4_C",
+    "name": "Double Ramp 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_Concrete_8x1_C",
+    "name": "Foundation 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_Concrete_8x2_C",
+    "name": "Foundation 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_Concrete_8x4_C",
+    "name": "Foundation 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Concrete_8x1_C",
+    "name": "Inv. Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Concrete_8x2_C",
+    "name": "Inv. Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Concrete_8x4_C",
+    "name": "Inv. Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Concrete_8x1_C",
+    "name": "Inv. Down Corner 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Concrete_8x2_C",
+    "name": "Inv. Down Corner 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Concrete_8x4_C",
+    "name": "Inv. Down Corner 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Concrete_8x1_C",
+    "name": "Inv. Up Corner 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Concrete_8x2_C",
+    "name": "Inv. Up Corner 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Concrete_8x4_C",
+    "name": "Inv. Up Corner 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Concrete_8x1_C",
+    "name": "Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Concrete_8x2_C",
+    "name": "Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Concrete_8x4_C",
+    "name": "Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Concrete_8x1_C",
+    "name": "Down Corner Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Concrete_8x2_C",
+    "name": "Down Corner Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Concrete_8x4_C",
+    "name": "Down Corner Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Concrete_8x1_C",
+    "name": "Up Corner Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Concrete_8x2_C",
+    "name": "Up Corner Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Concrete_8x4_C",
+    "name": "Up Corner Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Concrete_8x1_C",
+    "name": "Double Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Concrete_8x2_C",
+    "name": "Double Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Concrete_8x4_C",
+    "name": "Double Ramp 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_Metal_8x1_C",
+    "name": "Foundation 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_Metal_8x2_C",
+    "name": "Foundation 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_Metal_8x4_C",
+    "name": "Foundation 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Metal_8x1_C",
+    "name": "Inv. Down Corner 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Metal_8x2_C",
+    "name": "Inv. Down Corner 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Metal_8x4_C",
+    "name": "Inv. Down Corner 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Metal_8x1_C",
+    "name": "Inv. Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Metal_8x2_C",
+    "name": "Inv. Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Metal_8x4_C",
+    "name": "Inv. Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Metal_8x1_C",
+    "name": "Inv. Up Corner 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Metal_8x2_C",
+    "name": "Inv. Up Corner 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Metal_8x4_C",
+    "name": "Inv. Up Corner 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Metal_8x1_C",
+    "name": "Down Corner Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Metal_8x2_C",
+    "name": "Down Corner Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Metal_8x4_C",
+    "name": "Down Corner Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Metal_8x1_C",
+    "name": "Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Metal_8x2_C",
+    "name": "Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Metal_8x4_C",
+    "name": "Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Metal_8x1_C",
+    "name": "Up Corner Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Metal_8x2_C",
+    "name": "Up Corner Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Metal_8x4_C",
+    "name": "Up Corner Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Metal_8x1_C",
+    "name": "Double Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Metal_8x2_C",
+    "name": "Double Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Metal_8x4_C",
+    "name": "Double Ramp 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Stairs_Left_01_C",
+    "name": "Stairs Left",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Stairs_Right_01_C",
+    "name": "Stairs Right",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_FloodlightPole_C",
+    "name": "Flood Light Tower",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 25,
+        "rate": 1500
+      },
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 8,
+        "rate": 480
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_FloodlightPole_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_FloodlightWall_C",
+    "name": "Wall Mounted Flood Light",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 25,
+        "rate": 1500
+      },
+      {
+        "item": "Desc_CopperSheet_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_SteelPlateReinforced_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_FloodlightWall_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StreetLight_C",
+    "name": "Street Light",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_Wire_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 4,
+        "rate": 240
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StreetLight_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerPoleWallDouble_C",
+    "name": "Double Wall Outlet Mk.1",
+    "inputs": [
+      {
+        "item": "Desc_Wire_C",
+        "amount": 8,
+        "rate": 480
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PowerPoleWallDouble_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_ConveyorPoleWall_C",
+    "name": "Conveyor Wall Mount",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_ConveyorPoleWall_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_HyperTubeWallHole_C",
+    "name": "Hypertube Wall Hole",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_HyperTubeWallHole_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_HyperTubeWallSupport_C",
+    "name": "Hypertube Wall Support",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_HyperTubeWallSupport_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipeSupportWall_C",
+    "name": "Pipeline Wall Support",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PipelineSupportWall_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PipeSupportWallHole_C",
+    "name": "Pipeline Wall Hole",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PipelineSupportWallHole_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerPoleWallDoubleMk2_C",
+    "name": "Double Wall Outlet Mk.2",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 16,
+        "rate": 960
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 4,
+        "rate": 240
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerPoleWallMk2_C",
+    "name": "Wall Outlet Mk.2",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedWire_C",
+        "amount": 8,
+        "rate": 480
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerPoleWallDoubleMk3_C",
+    "name": "Double Wall Outlet Mk.3",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedConnector_C",
+        "amount": 6,
+        "rate": 360
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 6,
+        "rate": 360
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PowerPoleWallMk3_C",
+    "name": "Wall Outlet Mk.3",
+    "inputs": [
+      {
+        "item": "Desc_HighSpeedConnector_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_SteelPipe_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Gate_Automated_8x4_C",
+    "name": "Automated Gate",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 6,
+        "rate": 360
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Pillar_Small_Concrete_C",
+    "name": "Small Concrete Pillar",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Pillar_Small_Concrete_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PillarMiddle_Concrete_C",
+    "name": "Big Concrete Pillar",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PillarMiddle_Concrete_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_FoundationPassthrough_Lift_C",
+    "name": "Conveyor Lift Floor Hole",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_FoundationPassthrough_Lift_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_QuarterPipe_C",
+    "name": "Quarter Pipe",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_QuarterPipe_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_QuarterPipe_02_C",
+    "name": "Inverted Quarter Pipe",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_QuarterPipeCorner_01_C",
+    "name": "Inner Corner Quarter Pipe",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_QuarterPipeCorner_02_C",
+    "name": "Inverted Inner Corner Quarter Pipe",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_QuarterPipeCorner_03_C",
+    "name": "Outer Corner Quarter Pipe",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_QuarterPipeCorner_04_C",
+    "name": "Inverted Outer Corner Quarter Pipe",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_FactoryCart_C",
+    "name": "Factory Cart™",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 4,
+        "rate": 12
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 4,
+        "rate": 12
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 2,
+        "rate": 6
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_GolfCart_C",
+        "amount": 1,
+        "rate": 3
+      }
+    ],
+    "duration": 20,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_CyberWagon_C",
+    "name": "Cyber Wagon",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_CyberWagon_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StandaloneWidgetSign_Medium_C",
+    "name": "Display Sign",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_QuartzCrystal_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StandaloneWidgetSign_Medium_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StandaloneWidgetSign_Portrait_C",
+    "name": "Portrait Sign",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_QuartzCrystal_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StandaloneWidgetSign_Portrait_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StandaloneWidgetSign_Square_C",
+    "name": "Square Sign 2m",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_QuartzCrystal_C",
+        "amount": 10,
+        "rate": 600
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StandaloneWidgetSign_Square_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StandaloneWidgetSign_Square_Small_C",
+    "name": "Square Sign 1m",
+    "inputs": [
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_QuartzCrystal_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StandaloneWidgetSign_Square_Small_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Concrete_Barrier_01_C",
+    "name": "Road Barrier",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Pillar_Small_Frame_C",
+    "name": "Small Frame Pillar",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_Pillar_Small_Frame_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_PillarMiddle_Frame_C",
+    "name": "Big Frame Pillar",
+    "inputs": [
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_PillarMiddle_Frame_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Window_Thin_8x4_01_C",
+    "name": "Full Frame Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Wall_Window_Thin_8x4_02_C",
+    "name": "Hex Frame Window",
+    "inputs": [
+      {
+        "item": "Desc_Silica_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_SteelPlate_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_GoldenCart_C",
+    "name": "Golden Factory Cart™",
+    "inputs": [
+      {
+        "item": "Desc_GoldIngot_C",
+        "amount": 15,
+        "rate": 45
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 4,
+        "rate": 12
+      },
+      {
+        "item": "Desc_Rotor_C",
+        "amount": 2,
+        "rate": 6
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_GolfCartGold_C",
+        "amount": 1,
+        "rate": 3
+      }
+    ],
+    "duration": 20,
+    "producer": [
+      "BP_WorkshopComponent_C"
+    ]
+  },
+  {
+    "id": "Recipe_StorageHazard_C",
+    "name": "Hazard Storage Box",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 6,
+        "rate": 360
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 6,
+        "rate": 360
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StorageHazard_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_FoundationPassthrough_Hypertube_C",
+    "name": "Hypertube Floor Hole",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_FoundationPassthrough_Hypertube_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StandaloneWidgetSign_Small_C",
+    "name": "Label Sign 2m",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_QuartzCrystal_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StandaloneWidgetSign_Small_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StandaloneWidgetSign_SmallVeryWide_C",
+    "name": "Label Sign 4m",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 4,
+        "rate": 240
+      },
+      {
+        "item": "Desc_QuartzCrystal_C",
+        "amount": 4,
+        "rate": 240
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StandaloneWidgetSign_SmallVeryWide_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StandaloneWidgetSign_SmallWide_C",
+    "name": "Label Sign 3m",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 3,
+        "rate": 180
+      },
+      {
+        "item": "Desc_QuartzCrystal_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StandaloneWidgetSign_SmallWide_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StandaloneWidgetSign_Square_Tiny_C",
+    "name": "Square Sign 0.5m",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 1,
+        "rate": 60
+      },
+      {
+        "item": "Desc_QuartzCrystal_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StandaloneWidgetSign_Square_Tiny_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_LightsControlPanel_C",
+    "name": "Lights Control Panel",
+    "inputs": [
+      {
+        "item": "Desc_Cable_C",
+        "amount": 10,
+        "rate": 600
+      },
+      {
+        "item": "Desc_IronPlateReinforced_C",
+        "amount": 5,
+        "rate": 300
+      },
+      {
+        "item": "Desc_CircuitBoardHighSpeed_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_LightsControlPanel_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_StorageMedkit_C",
+    "name": "Medical Storage Box",
+    "inputs": [
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 6,
+        "rate": 360
+      },
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 6,
+        "rate": 360
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_StorageMedkit_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_FoundationPassthrough_Pipe_C",
+    "name": "Pipeline Floor Hole",
+    "inputs": [
+      {
+        "item": "Desc_IronRod_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_IronPlate_C",
+        "amount": 2,
+        "rate": 120
+      },
+      {
+        "item": "Desc_Cement_C",
+        "amount": 2,
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "item": "Desc_FoundationPassthrough_Pipe_C",
+        "amount": 1,
+        "rate": 60
+      }
+    ],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Orange_01_C",
+    "name": "FICSIT Roof Flat",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Orange_02_C",
+    "name": "FICSIT Roof 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Orange_03_C",
+    "name": "FICSIT Roof 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Orange_04_C",
+    "name": "FICSIT Roof 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_Asphalt_8x1_C",
+    "name": "Foundation 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_Asphalt_8x2_C",
+    "name": "Foundation 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Foundation_Asphalt_8x4_C",
+    "name": "Foundation 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Asphalt_8x1_C",
+    "name": "Inv. Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Asphalt_8x2_C",
+    "name": "Inv. Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_Asphalt_8x4_C",
+    "name": "Inv. Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Asphalt_8x1_C",
+    "name": "Inv. Down Corner 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Asphalt_8x2_C",
+    "name": "Inv. Down Corner 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_DCorner_Asphalt_8x4_C",
+    "name": "Inv. Down Corner 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Asphalt_8x1_C",
+    "name": "Inv. Up Corner 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Asphalt_8x2_C",
+    "name": "Inv. Up Corner 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_InvertedRamp_UCorner_Asphalt_8x4_C",
+    "name": "Inv. Up Corner 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Asphalt_8x1_C",
+    "name": "Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Asphalt_8x2_C",
+    "name": "Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_Asphalt_8x4_C",
+    "name": "Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Asphalt_8x1_C",
+    "name": "Down Corner Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Asphalt_8x2_C",
+    "name": "Down Corner Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_DownCorner_Asphalt_8x4_C",
+    "name": "Down Corner Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Asphalt_8x1_C",
+    "name": "Up Corner Ramp 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Asphalt_8x2_C",
+    "name": "Up Corner Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Ramp_UpCorner_Asphalt_8x4_C",
+    "name": "Up Corner Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Asphalt_8x1_C",
+    "name": "Double Ramp 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Asphalt_8x2_C",
+    "name": "Double Ramp 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_RampDouble_Asphalt_8x4_C",
+    "name": "Double Ramp 8m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 5,
+        "rate": 300
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Window_01_C",
+    "name": "Glass Roof Flat",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Window_02_C",
+    "name": "Glass Roof 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Window_03_C",
+    "name": "Glass Roof 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Window_04_C",
+    "name": "Glass Roof 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_A_01_C",
+    "name": "Metal Roof Flat",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_A_02_C",
+    "name": "Metal Roof 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_A_03_C",
+    "name": "Metal Roof 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_A_04_C",
+    "name": "Metal Roof 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Tar_01_C",
+    "name": "Tar Roof Flat",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Tar_02_C",
+    "name": "Tar Roof 1m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Tar_03_C",
+    "name": "Tar Roof 2m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  },
+  {
+    "id": "Recipe_Roof_Tar_04_C",
+    "name": "Tar Roof 4m",
+    "inputs": [
+      {
+        "item": "Desc_Cement_C",
+        "amount": 3,
+        "rate": 180
+      }
+    ],
+    "outputs": [],
+    "duration": 1,
+    "producer": [
+      "BP_BuildGun_C"
+    ]
+  }
+]

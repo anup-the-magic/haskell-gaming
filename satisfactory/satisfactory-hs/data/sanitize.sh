@@ -7,7 +7,6 @@ function usage() {
 
 cd "$(dirname "$0")"
 
-OUTPUT_DIR=${1?$(usage)}
 
 FILE='./Docs.json'
 
@@ -20,63 +19,135 @@ cat "$FILE" \
 function get() {
   echo "$JSON" \
     | jq '
-      .[] | select(.NativeClass | contains("FactoryGame.'$1'_"))
-      | .Classes | .[]'
+      .[]
+      | select(
+        .NativeClass[:-1]
+        | split(".")[-1]
+        | (. == "'$1'")
+      )
+      | .Classes
+      | .[]
+    '
 }
 
 function header() {
-  echo -e "\n\n==============$1==============\n\n"
+  echo -e "\n============== $1 ==============\n"
 }
 
 function debug() {
-  tee >(jq -s "${1:-.[0]}" >&2)
+  jq -s "${1:-.[0]}" \
+    | tee >(jq >&2)
 }
 
 
 # echo "$JSON" | jq '.[5] | .NativeClass'
 
-header "ITEMS"
-
-items=$(\
-  get "FGItemDescriptor" \
-  | jq 'with_entries(select(.value != ""))' \
-  | jq '{
-    id: .ClassName,
-    name: .mDisplayName,
-    short_name: (.mAbbreviatedDisplayName // .mDisplayName),
-  }' \
-  | jq -s . \
-)
-
-header "RECIPES"
-
 # | debug 'map(.mDisplayName, .mIngredients)' \
 # | debug 'map(.mProduct | match("\\.([a-zA-Z_]+)\""; "g")) | .[]'\
 
-recipes=$(\
-  get "FGRecipe" \
-  | jq -s 'include "./helpers";
-  map({
-    id: .ClassName,
-    name: .mDisplayName,
-    inputs: convert_to_rate(.mIngredients),
-    outputs: convert_to_rate(.mProduct),
-    duration: .mManufactoringDuration | tonumber,
-  }
-  | select(.inputs | length > 1)
-  | (.inputs = add_rate(.; .inputs))
-  | (.outputs = add_rate(.; .outputs))
-  )
-' \
+# echo $JSON \
+#   | debug '
+#   include "./helpers";
+#   .[]
+#   | map(
+#     {
+#       (.NativeClass[1:-1] | split(".")[-1]): [
+#         .Classes
+#         | map(.ClassName | select(contains("Water")))
+#       ]
+#     }
+#   )
+#   | add
+#   '
+
+items=$(\
+  get "FGItemDescriptor" \
+  | jq -s '
+  include "./helpers";
+  map(to_item)
+  '
 )
 
-header "OUTPUT"
-echo Items
-echo $items | jq '.[0]'
-echo
-echo Recipes
-echo $recipes | jq '.[0]'
+recipes=$(\
+  get "FGRecipe" \
+  | jq -s '
+  include "./helpers";
+  map(
+    to_recipe
+    | select(
+        .producer
+        | any(
+            in([
+              "Build_Converter_C",
+              "Build_AssemblerMk1_C",
+              "Build_Blender_C",
+              "Build_ConstructorMk1_C",
+              "Build_FoundryMk1_C",
+              "Build_HadronCollider_C",
+              "Build_ManufacturerMk1_C",
+              "Build_OilRefinery_C",
+              "Build_Packager_C",
+              "Build_SmelterMk1_C",
+              "Build_AutomatedWorkBench_C",
+              "BP_WorkshopComponent_C"
+            ])
+        )
+    )
+    | select(
+        (.producer | any(. != "BP_WorkshopComponent_C"))
+        or
+        (.producer | all(. != "BP_WorkshopComponent_C"))
+      )
+  )
+  '
+)
 
-mkdir $OUTPUT_DIR
-echo $items > $OUTPUT_DIR/items.json
-echo $recipes > $OUTPUT_DIR/recipes.json
+buildables=$(\
+  get "FGRecipe" |
+  jq -s '
+  include "./helpers";
+  map(
+    select(
+        .mProducedIn
+        | simple_array
+        | map (extract_name)
+        | any(
+          .
+          | in([
+              "BP_WorkshopComponent_C",
+              "FGBuildGun",
+              "BP_BuildGun_C"
+            ])
+          )
+    )
+    | to_recipe
+    | select(
+        (.producer | all(. == "BP_WorkshopComponent_C"))
+        or
+        (.producer | any(. == "BP_WorkshopComponent_C") | not)
+    )
+  )
+  '
+)
+
+output=$(
+  header "Items"
+  echo $items | jq -C '.[0]'
+  header "Recipes"
+  echo $recipes | jq -C '.[0]'
+  header "buildables"
+  echo $recipes | jq -C '.[0]'
+)
+header "OUTPUT" && echo "$output"
+
+OUTPUT_DIR=${1-}
+if [[ ! -z $OUTPUT_DIR ]]; then
+  # if [[ $OUTPUT_DIR -eq "--help" ]]; then usage && exit 0; fi
+
+  echo "Writing output"
+
+  mkdir $OUTPUT_DIR
+  echo $items | jq > $OUTPUT_DIR/items.json
+  echo $recipes | jq > $OUTPUT_DIR/recipes.json
+  echo $buildables | jq > $OUTPUT_DIR/buildables.json
+fi

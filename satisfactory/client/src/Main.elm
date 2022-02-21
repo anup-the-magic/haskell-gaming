@@ -11,6 +11,7 @@ import Model exposing (Model)
 import Msg exposing (Msg(..))
 import Satisfactory exposing (Factory, Item, Recipe)
 import Satisfactory.View
+import Utils exposing (MissingKeyError)
 
 
 main : Program () Model Msg
@@ -27,6 +28,7 @@ init : flags -> ( Model, Cmd Msg )
 init _ =
     ( { factory = Satisfactory.factory_.empty
       , data = Data.empty
+      , errors = []
       }
     , Data.fetchItems |> Cmd.map ReceivedItems
     )
@@ -84,7 +86,7 @@ update msg model =
                     , Data.fetchRecipes items |> Cmd.map (ReceivedRecipes items)
                     )
 
-        ReceivedRecipes result ->
+        ReceivedRecipes items result ->
             case result of
                 Err err ->
                     case model.data of
@@ -94,8 +96,13 @@ update msg model =
                         _ ->
                             ( { model | data = Error err [] }, Cmd.none )
 
-                Ok data ->
-                    ( { model | data = data }, Cmd.none )
+                Ok recipes ->
+                    ( { model
+                        | data = Fetched { items = items, recipes = recipes.value }
+                        , errors = recipes.errors
+                      }
+                    , Cmd.none
+                    )
 
 
 subscriptions : Model -> Sub Msg

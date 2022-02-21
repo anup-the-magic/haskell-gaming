@@ -5,7 +5,10 @@ import Html exposing (Html)
 import Json.Decode as D exposing (Decoder, float, list, map, string)
 import Json.Decode.Extra as DE
 import Json.Decode.Pipeline exposing (required)
-import Utils
+import List.Nonempty exposing (Nonempty)
+import Result.Extra
+import Utils exposing (MissingKeyError)
+import Utils.Validation as Validation exposing (Validation)
 
 
 type alias ItemId =
@@ -21,8 +24,8 @@ type Rate
 
 
 type alias Production =
-    { item : Item
-    , rate : Rate
+    { rate : Rate
+    , item : Item
     }
 
 
@@ -34,7 +37,7 @@ type alias Recipe =
     { id : RecipeId
     , name : String
     , inputs : List Production
-    , output : List Production
+    , outputs : List Production
     }
 
 
@@ -49,7 +52,7 @@ factory_ =
 
 decoders_ :
     { item : Decoder Item
-    , recipe : Dict ItemId Item -> Decoder Recipe
+    , recipe : Dict ItemId Item -> Decoder (Validation MissingKeyError Recipe)
     }
 decoders_ =
     let
@@ -59,19 +62,30 @@ decoders_ =
                 |> required "id" string
                 |> required "name" string
 
-        production : Dict ItemId Item -> Decoder Production
+        production : Dict ItemId Item -> Decoder (Result MissingKeyError Production)
         production items =
-            D.succeed Production
-                |> required "item" (string |> Utils.decodeFromDict items)
+            D.succeed (\rate -> Result.map (Production rate))
                 |> required "rate" (float |> D.map PerMinute)
+                |> required "item" (string |> Utils.decodeFromDict items)
 
-        recipe : Dict ItemId Item -> Decoder Recipe
+        recipe : Dict ItemId Item -> Decoder (Validation MissingKeyError Recipe)
         recipe items =
-            D.succeed Recipe
+            D.succeed toRecipe
                 |> required "id" string
                 |> required "name" string
                 |> required "inputs" (list <| production items)
                 |> required "outputs" (list <| production items)
+
+        toRecipe :
+            RecipeId
+            -> String
+            -> List (Result MissingKeyError Production)
+            -> List (Result MissingKeyError Production)
+            -> Validation MissingKeyError Recipe
+        toRecipe id name inputs outputs =
+            Validation.map2 (Recipe id name)
+                (inputs |> Validation.fromResults)
+                (outputs |> Validation.fromResults)
     in
     { item = item
     , recipe = recipe

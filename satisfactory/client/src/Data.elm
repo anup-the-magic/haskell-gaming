@@ -1,10 +1,14 @@
 module Data exposing (..)
 
 import Dict exposing (Dict)
+import Dict.Extra
 import Http exposing (expectJson)
-import Json.Decode as Decode
+import Json.Decode as Decode exposing (list)
+import List.Extra
 import Satisfactory exposing (Item, ItemId, Recipe, RecipeId, decoders_)
-import Utils exposing (listKeyedBy)
+import Set
+import Utils exposing (MissingKeyError)
+import Utils.Validation as Validation exposing (Validation)
 
 
 type alias Items =
@@ -36,7 +40,9 @@ fetchItems =
         { url = "http://localhost:8080/update-5/items.json"
         , expect =
             expectJson identity
-                (decoders_.item |> listKeyedBy .id)
+                (list decoders_.item
+                    |> Decode.map (Dict.Extra.fromListBy .id)
+                )
         }
 
 
@@ -44,15 +50,24 @@ fetchItems =
 -- TODO: Convert to Http.task, to allow parallelization + merging
 
 
-fetchRecipes : Dict ItemId Item -> Cmd (Result Http.Error (InFlight Data))
+fetchRecipes : Dict ItemId Item -> Cmd (Result Http.Error (Validation MissingKeyError Recipes))
 fetchRecipes items =
+    let
+        concatRecipes rs =
+            rs
+                |> (\{ errs, recipes } r ->
+                        { errs = errs |> Set.fromList |> Set.toList
+                        , recipes = recipes |> Dict.Extra.fromListBy .id
+                        }
+                   )
+    in
     Http.get
         { url = "http://localhost:8080/update-5/recipes.json"
         , expect =
             expectJson identity
-                (decoders_.recipe items
-                    |> listKeyedBy .id
-                    |> Decode.map
-                        (\recipes -> Fetched { items = items, recipes = recipes })
+                (list (decoders_.recipe items)
+                    |> Decode.map Validation.accumulate
+                    |> Decode.map (Validation.map <| Dict.Extra.fromListBy .id)
+                    |> Decode.map (Validation.mapErrors List.Extra.unique)
                 )
         }

@@ -7,30 +7,39 @@ import Json.Decode.Extra exposing (fromResult)
 import Result exposing (fromMaybe)
 
 
-decodeFromDict : Dict String a -> Decoder String -> Decoder a
+type MissingKeyError
+    = MissingKeyError String
+
+
+decodeFromDict : Dict String a -> Decoder String -> Decoder (Result MissingKeyError a)
 decodeFromDict dict key =
     let
         keys =
             Dict.keys dict |> String.join ",\n\t"
 
-        errMsg k =
+        decodeValue : String -> Result MissingKeyError a
+        decodeValue k =
+            dict
+                |> Dict.get k
+                |> fromMaybe (MissingKeyError k)
+    in
+    key
+        |> Decode.map decodeValue
+
+
+decodeFromDict_ : Dict String a -> Decoder String -> Decoder a
+decodeFromDict_ dict key =
+    let
+        keys =
+            Dict.keys dict |> String.join ",\n\t"
+
+        errMsg (MissingKeyError k) =
             "missing key "
                 ++ k
                 ++ " in Dict. Existing keys: [\n"
                 ++ keys
                 ++ "\n]"
-
-        decodeValue k =
-            dict
-                |> Dict.get k
-                |> fromMaybe (errMsg k)
-                |> fromResult
     in
-    key
-        |> Decode.andThen decodeValue
-
-
-listKeyedBy : (a -> comparable) -> Decoder a -> Decoder (Dict comparable a)
-listKeyedBy keyFn decoder =
-    list decoder
-        |> Decode.map (Dict.Extra.fromListBy keyFn)
+    decodeFromDict dict key
+        |> Decode.map (Result.mapError errMsg)
+        |> Decode.andThen fromResult

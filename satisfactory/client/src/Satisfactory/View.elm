@@ -1,28 +1,26 @@
 module Satisfactory.View exposing (view)
 
-import Css exposing (..)
+import Element exposing (Element, column, row, text)
 import Html
-import Html.Styled exposing (..)
-import Html.Styled.Attributes exposing (..)
 import List
 import Msg exposing (Msg)
 import Satisfactory exposing (Factory, Recipe)
 import String
 
 
-viewRecipe : Recipe -> Html Msg
+viewRecipe : Recipe -> Element Msg
 viewRecipe recipe =
-    div [ css [] ] [ text recipe.name ]
+    row [] [ text recipe.name ]
 
 
-view : Factory -> Html Msg
+view : Factory -> Element Msg
 view factory =
-    div []
-        [ div [] [ text "Basic Factory" ]
+    column []
+        [ row [] [ text "Basic Factory" ]
         , factory.recipes
             |> List.map
                 (\{ amount, recipe } ->
-                    div [] [ text <| String.fromFloat amount, viewRecipe recipe ]
+                    row [] [ text <| String.fromFloat amount, viewRecipe recipe ]
                 )
-            |> div []
+            |> column []
         ]

@@ -4,14 +4,13 @@ import Browser exposing (Document)
 import Data exposing (Data, InFlight(..))
 import Dict exposing (Dict)
 import Element exposing (Element, column, html, row, text)
-import Html exposing (Html)
-import Html.Styled exposing (toUnstyled)
 import Http
 import Model exposing (Model)
 import Msg exposing (Msg(..))
 import Satisfactory exposing (Factory, Item, Recipe)
 import Satisfactory.View
 import Utils exposing (MissingKeyError)
+import View
 
 
 main : Program () Model Msg
@@ -37,35 +36,8 @@ init _ =
 view : Model -> Document Msg
 view model =
     { title = "Satisfactory calculator!"
-    , body = [ Element.layout [] <| body model ]
+    , body = [ Element.layout [] <| View.body model ]
     }
-
-
-body : Model -> Element Msg
-body model =
-    column []
-        [ case model.data of
-            Unfetched ->
-                text "Fetching!"
-
-            Fetched { items, recipes } ->
-                Satisfactory.View.view model.factory
-                    |> toUnstyled
-                    |> html
-
-            Error e errs ->
-                column [] ((e :: errs) |> List.map viewError)
-        ]
-
-
-viewError : Http.Error -> Element Msg
-viewError e =
-    case e of
-        Http.BadBody msg ->
-            text msg
-
-        _ ->
-            text <| Debug.toString e
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )

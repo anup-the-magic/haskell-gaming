@@ -1,7 +1,6 @@
 module Satisfactory exposing (..)
 
 import Dict exposing (Dict)
-import Html exposing (Html)
 import Json.Decode as D exposing (Decoder, float, list, map, string)
 import Json.Decode.Extra as DE
 import Json.Decode.Pipeline exposing (required)

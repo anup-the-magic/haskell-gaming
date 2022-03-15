@@ -2,14 +2,18 @@ module Satisfactory exposing (..)
 
 import Dict exposing (Dict)
 import Html exposing (Html)
-import Json.Decode as D exposing (Decoder, float, list, string)
+import Json.Decode as D exposing (Decoder, float, list, map, string)
 import Json.Decode.Extra as DE
 import Json.Decode.Pipeline exposing (required)
 import Utils
 
 
+type alias ItemId =
+    String
+
+
 type alias Item =
-    { id : String, name : String }
+    { id : ItemId, name : String }
 
 
 type Rate
@@ -22,8 +26,12 @@ type alias Production =
     }
 
 
+type alias RecipeId =
+    String
+
+
 type alias Recipe =
-    { id : String
+    { id : RecipeId
     , name : String
     , inputs : List Production
     , output : List Production
@@ -41,8 +49,7 @@ factory_ =
 
 decoders_ :
     { item : Decoder Item
-    , production : Dict String Item -> Decoder Production
-    , recipe : Dict String Item -> Decoder Recipe
+    , recipe : Dict ItemId Item -> Decoder Recipe
     }
 decoders_ =
     let
@@ -52,13 +59,13 @@ decoders_ =
                 |> required "id" string
                 |> required "name" string
 
-        production : Dict String Item -> Decoder Production
+        production : Dict ItemId Item -> Decoder Production
         production items =
             D.succeed Production
-                |> required "item" (string |> D.andThen (Utils.decodeFromDict items))
+                |> required "item" (string |> Utils.decodeFromDict items)
                 |> required "rate" (float |> D.map PerMinute)
 
-        recipe : Dict String Item -> Decoder Recipe
+        recipe : Dict ItemId Item -> Decoder Recipe
         recipe items =
             D.succeed Recipe
                 |> required "id" string
@@ -67,6 +74,5 @@ decoders_ =
                 |> required "outputs" (list <| production items)
     in
     { item = item
-    , production = production
     , recipe = recipe
     }

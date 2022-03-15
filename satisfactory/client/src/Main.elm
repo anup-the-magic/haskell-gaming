@@ -1,19 +1,16 @@
 module Main exposing (main)
 
 import Browser exposing (Document)
-import Data exposing (Data(..))
+import Data exposing (Data, InFlight(..))
 import Dict exposing (Dict)
 import Element exposing (Element, column, html, row, text)
 import Html exposing (Html)
 import Html.Styled exposing (toUnstyled)
+import Http
+import Model exposing (Model)
 import Msg exposing (Msg(..))
-import Satisfactory exposing (Factory)
+import Satisfactory exposing (Factory, Item, Recipe)
 import Satisfactory.View
-
-
-type alias Model =
-    { factory : Factory
-    }
 
 
 main : Program () Model Msg
@@ -28,8 +25,10 @@ main =
 
 init : flags -> ( Model, Cmd Msg )
 init _ =
-    ( { factory = Satisfactory.factory_.empty }
-    , Cmd.none
+    ( { factory = Satisfactory.factory_.empty
+      , data = Data.empty
+      }
+    , Data.fetchItems |> Cmd.map ReceivedItems
     )
 
 
@@ -46,9 +45,6 @@ body model =
         [ case model.data of
             Unfetched ->
                 text "Fetching!"
-
-            FetchedItems items ->
-                text "Fetched Items!"
 
             Fetched { items, recipes } ->
                 Satisfactory.View.view model.factory
@@ -73,8 +69,33 @@ viewError e =
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        Msg ->
-            ( model, Cmd.none )
+        ReceivedItems result ->
+            case result of
+                Err err ->
+                    case model.data of
+                        Error e es ->
+                            ( { model | data = Error e (err :: es) }, Cmd.none )
+
+                        _ ->
+                            ( { model | data = Error err [] }, Cmd.none )
+
+                Ok items ->
+                    ( model
+                    , Data.fetchRecipes items |> Cmd.map (ReceivedRecipes items)
+                    )
+
+        ReceivedRecipes result ->
+            case result of
+                Err err ->
+                    case model.data of
+                        Error e es ->
+                            ( { model | data = Error e (err :: es) }, Cmd.none )
+
+                        _ ->
+                            ( { model | data = Error err [] }, Cmd.none )
+
+                Ok data ->
+                    ( { model | data = data }, Cmd.none )
 
 
 subscriptions : Model -> Sub Msg

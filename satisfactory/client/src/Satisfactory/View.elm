@@ -17,6 +17,13 @@ type alias Sources =
     Dict ItemId (List Recipe)
 
 
+sources_ : Recipes -> Sources
+sources_ recipes =
+    recipes
+        |> Dict.values
+        |> List.concatMap (\r -> r.inputs |> List.map (\i -> ( i.item.id, r )))
+        |> Utils.dictFromListKeeping
+
 
 view : Model -> Data -> Element Msg
 view model { recipes, items } =
@@ -36,6 +43,17 @@ view model { recipes, items } =
 recipeSelector : Recipes -> SelectState Recipe -> Element Msg
 recipeSelector recipes state =
     let
+        button =
+            state
+                |> Utils.filter ((/=) Open)
+                |> Maybe.map
+                    (\_ -> [ onClick_ Msg.OpenRecipeSelector ])
+                |> Maybe.withDefault []
+                |> (\attrs ->
+                        el ([ width (px 200) ] ++ attrs)
+                            (text "Pick your recipe")
+                   )
+
         placeholder =
             state
                 |> Model.selected

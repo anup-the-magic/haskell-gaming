@@ -1,15 +1,17 @@
 module Main exposing (main)
 
 import Browser exposing (Document)
-import Data exposing (Data, InFlight(..))
-import Dict exposing (Dict)
-import Element exposing (Element, column, html, row, text)
+import Browser.Events exposing (onClick)
+import Data exposing (InFlight(..))
+import Dict
+import Element
+import Element.Events as Events
 import Http
+import Json.Decode as Decode
 import Model exposing (Model)
 import Msg exposing (Msg(..))
-import Satisfactory exposing (Factory, Item, Recipe)
-import Satisfactory.View
-import Utils exposing (MissingKeyError)
+import Satisfactory
+import Satisfactory.Model as Satisfactory exposing (SelectState(..))
 import View
 
 
@@ -25,7 +27,7 @@ main =
 
 init : flags -> ( Model, Cmd Msg )
 init _ =
-    ( { factory = Satisfactory.factory_.empty
+    ( { factory = Satisfactory.empty
       , data = Data.empty
       , errors = []
       }
@@ -76,7 +78,41 @@ update msg model =
                     , Cmd.none
                     )
 
+        AddToFactory recipe ->
+            let
+                f =
+                    model.factory
+
+                updatedRecipes =
+                    model.factory.recipes
+                        |> Dict.insert recipe.id { amount = 1, recipe = recipe }
+
+                model_ =
+                    { model | factory = { f | recipes = updatedRecipes } }
+            in
+            model_
+                |> update Msg.Blur
+
+        OpenRecipeSelector ->
+            let
+                f =
+                    model.factory
+            in
+            ( { model | factory = { f | addItem = Open } }, Cmd.none )
+
+        Blur ->
+            let
+                f =
+                    model.factory
+            in
+            ( { model | factory = { f | addItem = Empty } }, Cmd.none )
+
 
 subscriptions : Model -> Sub Msg
-subscriptions _ =
-    Sub.none
+subscriptions { factory } =
+    case factory.addItem of
+        Open ->
+            onClick (Decode.succeed Msg.Blur)
+
+        _ ->
+            Sub.none

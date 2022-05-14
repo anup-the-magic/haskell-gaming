@@ -40,15 +40,6 @@ type alias Recipe =
     }
 
 
-type alias Factory =
-    { recipes : List { amount : Float, recipe : Recipe } }
-
-
-factory_ : { empty : Factory }
-factory_ =
-    { empty = { recipes = [] } }
-
-
 decoders_ :
     { item : Decoder Item
     , recipe : Dict ItemId Item -> Decoder (Validation MissingKeyError Recipe)

@@ -1,12 +1,13 @@
 module View exposing (..)
 
 import Data exposing (Data, InFlight(..))
-import Element exposing (Element, column, fill, height, html, px, rgb, rgb255, row, text, width)
+import Element exposing (Element, alignLeft, alignRight, column, fill, height, html, px, rgb, rgb255, row, text, width)
 import Element.Background as Background
 import Http
 import Model exposing (Model)
 import Msg exposing (Msg)
 import Satisfactory.View
+import Utils exposing (MissingKeyError(..))
 
 
 body : Model -> Element Msg
@@ -31,8 +32,16 @@ content model =
             text "Fetching!"
 
         Fetched data ->
-            Satisfactory.View.view model.factory
-                |> Element.el []
+            row [ width fill ]
+                [ Satisfactory.View.view model.factory data
+                    |> Element.el [ alignLeft ]
+                , column [ alignRight ]
+                    [ text ("Missing Items: " ++ (String.fromInt <| List.length model.errors))
+                    , model.errors
+                        |> List.map (\(MissingKeyError err) -> text err)
+                        |> column [ alignRight ]
+                    ]
+                ]
 
         Error e errs ->
             column [ Background.color <| rgb255 200 0 0 ]

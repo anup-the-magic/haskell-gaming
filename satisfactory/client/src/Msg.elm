@@ -11,3 +11,6 @@ import Utils.Validation exposing (Validation)
 type Msg
     = ReceivedItems (Result Http.Error Data.Items)
     | ReceivedRecipes Data.Items (Result Http.Error (Validation MissingKeyError Data.Recipes))
+    | AddToFactory Recipe
+    | OpenRecipeSelector
+    | Blur
